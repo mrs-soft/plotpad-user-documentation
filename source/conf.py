@@ -27,7 +27,8 @@ author = 'ООО "Мобильные решения для строительс�
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [ 'sphinx.ext.githubpages'
+extensions = [ 'sphinx.ext.githubpages',
+                'sphinxcontrib.youtube'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -72,6 +73,18 @@ html_theme_options = {
             "name": "VK",
             "url": "https://vk.com/m_r_s",
             "icon": "fab fa-vk",
+        },
+
+        {
+            "name": "AppStore",
+            "url": "https://apps.apple.com/ru/app/стройконтроль/id867522092",
+            "icon": "fab fa-app-store"
+        },
+         
+       {
+            "name": "PlayMarket",
+            "url": "https://play.google.com/store/apps/details?id=com.planstery.review&hl=ru",
+            "icon": "fab fa-google-play"
         }
     ],
 
