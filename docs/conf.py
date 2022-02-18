@@ -62,18 +62,6 @@ html_favicon = '_static/favicon.ico'
 html_theme_options = {
     "icon_links": [
         {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/mrs_software/",
-            "icon": "fab fa-instagram",
-        },
-
-        {
-            "name": "VK",
-            "url": "https://vk.com/m_r_s",
-            "icon": "fab fa-vk",
-        },
-
-        {
             "name": "AppStore",
             "url": "https://apps.apple.com/ru/app/стройконтроль/id867522092",
             "icon": "fab fa-app-store"
@@ -83,6 +71,18 @@ html_theme_options = {
             "name": "PlayMarket",
             "url": "https://play.google.com/store/apps/details?id=com.planstery.review&hl=ru",
             "icon": "fab fa-google-play"
+        },
+        
+        {
+            "name": "Instagram",
+            "url": "https://www.instagram.com/mrs_software/",
+            "icon": "fab fa-instagram",
+        },
+
+        {
+            "name": "VK",
+            "url": "https://vk.com/m_r_s",
+            "icon": "fab fa-vk",
         }
     ],
 
@@ -98,3 +98,10 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title, author, documentclass [howto/manual]).
+latex_documents = [
+ ('index', 'yourdoc.tex', u'DocName', u'YourName', 'manual'),
+]

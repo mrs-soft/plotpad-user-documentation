@@ -76,8 +76,8 @@
 
 ..  |Genplan-Button| image:: images/plans-instruments/plans-instrument-3-manage-panel-genplan.png
             :alt: Генплан
-            :scale: 50%
+            :scale: 65%
 
 ..  |Creating-Button| image:: images/general-plan/general-plan-1-creating-button.png
             :alt: Генплан
-            :scale: 50%
+            :scale: 65%
