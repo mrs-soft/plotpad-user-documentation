@@ -89,7 +89,7 @@ html_theme_options = {
      "search_bar_text": "Поиск по документации...",
 
        "external_links": [
-      {"name": "Главная страница", "url": "./"}
+      {"name": "Главная страница", "url": "/"}
   ]
 
 }
