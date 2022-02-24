@@ -27,7 +27,7 @@ author = 'ООО "Мобильные решения для строительс�
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [ 'sphinxcontrib.youtube' ]
+extensions = [ 'sphinxcontrib.youtube', 'sphinx_comments' ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -105,3 +105,11 @@ html_static_path = ['_static']
 latex_documents = [
  ('index', 'yourdoc.tex', u'DocName', u'YourName', 'manual'),
 ]
+
+# 
+comments_config = {
+   "utterances": {
+      "repo": "mrs-soft/plotpad-user-documentation",
+      "optional": "config",
+   }
+}
