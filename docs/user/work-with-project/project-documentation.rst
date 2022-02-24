@@ -227,7 +227,7 @@
 --- фотографии, документы и так далее (Рис. 8).
 
 ..  figure:: images/project-documentation-17-application.gif
-    :alt: Поиск документации
+    :alt: Раздел «Приложения»
     :align: center
 
     Рис. 8. Раздел «Приложения»
@@ -243,7 +243,7 @@
     Нажмите на кнопку «Применить» (Рис. 9).
 
 ..  figure:: images/project-documentation-18-application-sort.png
-    :alt: Поиск документации
+    :alt: Фильтрация приложений
     :align: center
 
     Рис. 9. Фильтрация приложений
@@ -263,6 +263,14 @@
 Для этого в отфильтрованном списке приложений нажмите на кнопку |archive-button|,
 далее удалите требуемые файлы, нажав на иконку |delete-button|.
 
+..  only:: html
+
+    ..  figure:: images/project-documentation-22-deleting-multiple-applications.gif
+        :alt: Поиск документации
+        :align: center
+
+        Рис. 10. Удаление отфильтрованных приложений
+
 ..  |archive-button| image:: images/project-documentation-20-application-archive-button.png
                       :alt: Архивировать
                       :scale: 100%
@@ -275,3 +283,11 @@
 
 Также приложения можно скачать или архивировать отдельно.
 Для этого нажмите на кнопку |kebab-menu-button| напротив требуемого приложения и выберите нужное действие из выпадающего списка.
+
+..  only:: html
+
+    ..  figure:: images/project-documentation-23-deleting-one-application.gif
+        :alt: Поиск документации
+        :align: center
+
+        Рис. 10. Удаление отдельного приложения

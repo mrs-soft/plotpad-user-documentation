@@ -105,11 +105,3 @@ html_static_path = ['_static']
 latex_documents = [
  ('index', 'yourdoc.tex', u'DocName', u'YourName', 'manual'),
 ]
-
-# 
-comments_config = {
-   "utterances": {
-      "repo": "mrs-soft/plotpad-user-documentation",
-      "optional": "config",
-   }
-}

@@ -8,10 +8,27 @@
 
 Вы можете открыть веб-приложение в браузере по адресу app.plotpad.com или просто перейдите по `ссылке <https://app.plotpad.com>`_.
 
-Мобильные приложения можно скачать по ссылкам:
+..  only:: html
 
-*   `PlayMarket <https://play.google.com/store/apps/details?id=com.planstery.review&hl=ru>`_,
-*   `AppStore <https://apps.apple.com/ru/app/стройконтоль/id867522092>`_.
+    Мобильные приложения можно скачать по ссылкам:
+
+    *   |PlayMarket|,
+    *   |AppStore|.
+
+..  |PlayMarket| raw:: html
+    
+    <a href="https://play.google.com/store/apps/details?id=com.planstery.review&hl=ru" target="_blank">PlayMarket</a>
+
+..  |AppStore| raw:: html
+
+    <a href="https://apps.apple.com/ru/app/стройконтоль/id867522092" target="_blank">AppStore</a>
+
+..  only:: latex
+
+    Мобильные приложения можно скачать по ссылкам:
+
+    *   `PlayMarket <https://play.google.com/store/apps/details?id=com.planstery.review&hl=ru>`_,
+    *   `AppStore <https://apps.apple.com/ru/app/стройконтоль/id867522092>`_.
 
 Серверная часть отвечает за хранение и обработку данных и находится в безопасном дата-центре провайдера **Selectel**.
 
