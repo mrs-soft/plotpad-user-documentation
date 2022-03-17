@@ -10,5 +10,3 @@
      user/documentation
      user/settings
      user/help
-     user/typical-instructions
-     user/contacts
