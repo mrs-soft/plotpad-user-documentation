@@ -71,23 +71,17 @@ html_theme_options = {
             "icon": "fab fa-app-store"
         },
          
-       {
+        {
             "name": "PlayMarket",
             "url": "https://play.google.com/store/apps/details?id=com.planstery.review&hl=ru",
             "icon": "fab fa-google-play"
         },
         
         {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/mrs_software/",
-            "icon": "fab fa-instagram",
-        },
-
-        {
             "name": "VK",
             "url": "https://vk.com/m_r_s",
             "icon": "fab fa-vk",
-        }
+        },
     ],
 
      "search_bar_text": "Поиск по документации...",
