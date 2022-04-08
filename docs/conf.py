@@ -102,3 +102,7 @@ html_css_files = [
 latex_documents = [
  ('index', 'yourdoc.tex', u'DocName', u'YourName', 'manual'),
 ]
+
+comments_config = {
+   "hypothesis": True
+}
