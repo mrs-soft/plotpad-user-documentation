@@ -4,11 +4,11 @@
 Раздел «Аналитика» (Рис. 1) позволяет с помощью графиков наглядно отслеживать успехи по проделанной работе
 сразу по нескольким графикам с разных элементов структуры, по проектам, по подрядчикам и так далее.
 
-..  figure:: images/analytics-1-overview.png
+..  thumbnail:: images/analytics-1-overview.png
     :alt: Раздел "Аналитика"
     :align: center
-
-    Рис. 1. Раздел "Аналитика"
+    :title: Рис. 1. Раздел "Аналитика"
+    :show_caption: True
 
 Фильтрация аналитики
 --------------------
@@ -21,11 +21,11 @@
 
     ..  only:: html
 
-        ..  figure:: images/analytics-2-time-range.gif
+        ..  thumbnail:: images/analytics-2-time-range.gif
             :alt: Временной диапазон
             :align: center
-
-            Рис. 2. Выбор временного диапазона
+            :title: Рис. 2. Выбор временного диапазона
+            :show_caption: True
 
     ..  only:: latex
 
@@ -41,11 +41,11 @@
 
     Кнопка «Архивированные замечания» позволяет включать в аналитике замечания, которые были заархивированы (Рис. 3).
 
-    ..  figure:: images/analytics-3-archive.png
+    ..  thumbnail:: images/analytics-3-archive.png
         :alt: Временной диапазон
-        :align: center
-
-        Рис. 3. Включение в аналитику архивированных замечаний
+        :width: 80%
+        :title: Рис. 3. Включение в аналитику архивированных замечаний
+        :show_caption: True
 
 После настройки фильтров, обновите график, нажав на кнопку |Update-Button| в верхней правой части экрана.
 
@@ -63,73 +63,80 @@
                     :alt: Кнопка графиков
                     :scale: 100%
 
-..  figure:: images/analytics-6-graphs-choose.png
+..  thumbnail:: images/analytics-6-graphs-choose.png
     :alt: Выбор графиков
-    :align: center
-
-    Рис. 4. Меню выбора графиков
+    :width: 50%
+    :title: Рис. 4. Меню выбора графиков
+    :show_caption: True
 
 В нём вам будут предложены следующие аналитические графики:
 
 *   Динамика замечаний по состояниям (Рис. 5).
     График показывает количество изменений статусов замечаний в проекте по неделям в выбранном периоде.
 
-    ..  figure:: images/analytics-7-graphs-tasks-dynamic.png
+    ..  thumbnail:: images/analytics-7-graphs-tasks-dynamic.png
         :alt: График
         :align: center
-
-        Рис. 5. Динамика замечаний по состояниям
+        :title: Рис. 5. Динамика замечаний по состояниям
+        :show_caption: True
+        :group: Graphs
 
 *   Рейтинг авторов по состояниям замечаний (Рис. 6).
     График показывает количество замечаний, созданных сотрудниками, по состояниям в выбранном периоде.
 
-    ..  figure:: images/analytics-8-graphs-authors.png
+    ..  thumbnail:: images/analytics-8-graphs-authors.png
         :alt: График
         :align: center
-
-        Рис. 6. Рейтинг авторов по состояниям замечаний
+        :title: Рис. 6. Рейтинг авторов по состояниям замечаний
+        :show_caption: True
+        :group: Graphs
 
 *   Рейтинг исполнителей по состояниям замечаний (Рис. 7).
     График показывает количество замечаний, назначенных сотрудниками, по состояниям в выбранном периоде.
 
-    ..  figure:: images/analytics-9-graphs-executors.png
+    ..  thumbnail:: images/analytics-9-graphs-executors.png
         :alt: График
         :align: center
-
-        Рис. 7. Рейтинг исполнителей по состояниям замечаний
+        :title: Рис. 7. Рейтинг исполнителей по состояниям замечаний
+        :show_caption: True
+        :group: Graphs
 
 *   Рейтинг категорий по состояниям замечаний (Рис. 8).
     График показывает количество замечаний по состояниям в выбранном периоде по каждой категории.
 
-    ..  figure:: images/analytics-10-graphs-categories.png
+    ..  thumbnail:: images/analytics-10-graphs-categories.png
         :alt: График
         :align: center
-
-        Рис. 8. Рейтинг категорий по состояниям замечаний
+        :title: Рис. 8. Рейтинг категорий по состояниям замечаний
+        :show_caption: True
+        :group: Graphs
 
 *   Рейтинг организаций авторов по состояниям замечаний (Рис. 9).
     График показывает количество замечаний, созданных всеми сотрудниками конкретной организации, по состояниям в выбранном периоде.
 
-    ..  figure:: images/analytics-11-graphs-org-authors.png
+    ..  thumbnail:: images/analytics-11-graphs-org-authors.png
         :alt: График
         :align: center
-
-        Рис. 9. Рейтинг организаций авторов по состояниям замечаний
+        :title: Рис. 9. Рейтинг организаций авторов по состояниям замечаний
+        :show_caption: True
+        :group: Graphs
     
 *   Рейтинг организаций исполнителей по состояниям замечаний (Рис. 10).
     График показывает количество замечаний, назначенных всеми сотрудниками конкретной организации, по состояниям в выбранном периоде.
 
-    ..  figure:: images/analytics-12-graphs-org-executors.png
+    ..  thumbnail:: images/analytics-12-graphs-org-executors.png
         :alt: График
         :align: center
-
-        Рис. 10. Рейтинг организаций авторов по состояниям замечаний
+        :title: Рис. 10. Рейтинг организаций авторов по состояниям замечаний
+        :show_caption: True
+        :group: Graphs
 
 *   Сводный график по количеству замечаний (Рис. 11).
     График показывает общий прогресс по замечаниям за выбранный период, а также количественные показатели на конкретную дату.
 
-    ..  figure:: images/analytics-13-graphs-tasks-summary.png
+    ..  thumbnail:: images/analytics-13-graphs-tasks-summary.png
         :alt: График
         :align: center
-
-        Рис. 11. Сводный график по количеству замечаний
+        :title: Рис. 11. Сводный график по количеству замечаний
+        :show_caption: True
+        :group: Graphs

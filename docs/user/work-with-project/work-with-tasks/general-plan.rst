@@ -17,11 +17,11 @@
     #.  В появившемся списке выбираем необходимые чертежи.
     #.  Для каждого чертежа в появившемся окне выбираем номера страниц для добавления в генплан.
 
-    ..  figure:: images/general-plan/general-plan-1-creating.gif
+    ..  thumbnail:: images/general-plan/general-plan-1-creating.gif
         :alt: Создание генплана
         :align: center
-
-        Рис. 1. Создание генплана
+        :title: Рис. 1. Создание генплана
+        :show_caption: True
 
 ..  only:: latex
 
@@ -61,11 +61,11 @@
 
 .. note:: Функционал программы позволяет связать между собой несколько генпланов в один основной.
 
-..  figure:: images/general-plan/general-plan-2-working.png
+..  thumbnail:: images/general-plan/general-plan-2-working.png
     :alt: Создание генплана
     :align: center
-    
-    Рис. 2. Работа с генпланом
+    :title: Рис. 2. Работа с генпланом
+    :show_caption: True
 
 Чтобы открепить чертежи от генплана нужно вновь нажать на |Genplan-Button| и в открывшемся окне удалить ненужные чертежи.
 

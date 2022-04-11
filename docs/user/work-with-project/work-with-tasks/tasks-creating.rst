@@ -20,11 +20,11 @@
 
 ..  only:: html
 
-    ..  figure:: images/tasks-creating/tasks-creating-2-adding-task.gif
+    ..  thumbnail:: images/tasks-creating/tasks-creating-2-adding-task.gif
         :alt: Добавить документацию
         :align: center
-
-        Рис. 1. Создание замечания без привязки к плану
+        :title: Рис. 1. Создание замечания без привязки к плану
+        :show_caption: True
 
 ..  only:: latex
 
@@ -67,11 +67,11 @@
         Для этого откройте загруженную в приложение фотографию и нажмите на значок |Drawing-Annotation-Button|.
         После этого появится меню с инструментами для рисования (Рис. 2)
 
-        ..  figure:: images/tasks-creating/tasks-creating-3-drawing-annotation.gif
+        ..  thumbnail:: images/tasks-creating/tasks-creating-3-drawing-annotation.gif
             :alt: Добавить документацию
             :align: center
-
-            Рис. 1. Рисование аннотаций
+            :title: Рис. 1. Рисование аннотаций
+            :show_caption: True
 
     ..  only:: latex
 
@@ -124,11 +124,11 @@
 
         Для удаления необходимо нажать на кнопку «Удалить». Затем на кнопку напротив того комментария, который вы хотите удалить (Рис. 4).
 
-        ..  figure:: images/tasks-creating/tasks-creating-18-19-comment-deleting.gif
+        ..  thumbnail:: images/tasks-creating/tasks-creating-18-19-comment-deleting.gif
             :alt: Удаление комментариев
             :align: center
-
-            Рис. 4. Удаление комментариев
+            :title: Рис. 4. Удаление комментариев
+            :show_caption: True
 
     ..  only:: latex
 
@@ -161,20 +161,20 @@
     При заполнении данного пункта достаточно ввести ключевые слова, программа сама предложит вам варианты нормативных документов (рис. 5).
     Выберите нужный для заполнения замечания стандарт.
 
-    ..  figure:: images/tasks-creating/tasks-creating-21-searching-typical-tasks.png
+    ..  thumbnail:: images/tasks-creating/tasks-creating-21-searching-typical-tasks.png
         :alt: Поиск нормативного документа
         :align: center
-
-        Рис. 5. Поиск нормативного документа по ключевым словам в пункте **Типовые замечания**
+        :title: Рис. 5. Поиск нормативного документа по ключевым словам в пункте **Типовые замечания**
+        :show_caption: True
 
     В зависимости от настройки типовых замечаний автоматически будет заполняться
     или только название, или только описание, или и название, и описание (рис. 6).
     
-    ..  figure:: images/tasks-creating/tasks-creating-22-typical-task-view.png
+    ..  thumbnail:: images/tasks-creating/tasks-creating-22-typical-task-view.png
         :alt: Нормативный документ
         :align: center
-
-        Рис. 6. Вид замечания после заполнения пункта **Типовые замечания**
+        :title: Рис. 6. Вид замечания после заполнения пункта **Типовые замечания**
+        :show_caption: True
 
     Чтобы изменить пункт стандарта, нажмите на кнопку |Typical-Tasks-Button| и повторите действия, описанные выше.
     Можно отредактировать предложенный программой текст вручную.
@@ -187,11 +187,11 @@
 #.  **Архивировать**. Кнопка позволяет удалить замечание (Рис. 7).
 #.  **Важное** |Important-Button|. Кнопка присваивает замечанию статус важное и поднимает замечание в реестре замечаний наверх (Рис. 7).
 
-    ..  figure:: images/tasks-creating/tasks-creating-23-filled-task-view.png
+    ..  thumbnail:: images/tasks-creating/tasks-creating-23-filled-task-view.png
         :alt: Заполненное замечание
         :align: center
-
-        Рис. 7. Заполнение информации по замечанию
+        :title: Рис. 7. Заполнение информации по замечанию
+        :show_caption: True
 
     ..  note:: При создании замечания на объекте строительства не обязательно заполнять все вышеперечисленные поля,
         достаточно будет названия, описания, фотографии и выбора исполнителя, а также другой информации на ваше усмотрение.
@@ -210,11 +210,11 @@
 
     #.  Откройте чертеж, нажмите на красную кнопку в правой рабочей области экрана |Creating-Task-On-Plan-Button| (Рис. 8).
 
-        ..  figure:: images/tasks-creating/tasks-creating-26-creating-task-on-plan.gif
+        ..  thumbnail:: images/tasks-creating/tasks-creating-26-creating-task-on-plan.gif
             :alt: Замечание на чертеже
             :align: center
-
-            Рис. 8. Создание замечания на чертеже
+            :title: Рис. 8. Создание замечания на чертеже
+            :show_caption: True
 
 ..  only:: latex
 
@@ -232,11 +232,11 @@
     Появится знак замечания |Task-Marker|, и автоматически откроется краткая форма создания замечания (рис. 9).
     Приступите к заполнению информации по замечанию, как уже было описано ранее.
 
-    ..  figure:: images/tasks-creating/tasks-creating-28-short-creating-task-form.png
+    ..  thumbnail:: images/tasks-creating/tasks-creating-28-short-creating-task-form.png
         :alt: Краткая форма
-        :align: center
-    
-        Рис. 9. Краткая форма создания замечания
+        :width: 80%
+        :title: Рис. 9. Краткая форма создания замечания
+        :show_caption: True
 
 Краткая форма содержит следующие поля из полной формы карточки **Замечания**:
 
@@ -256,11 +256,11 @@
     Если Вы хотите повторно попасть в описание замечания, нажмите левой кнопкой мыши на замечание на чертеже.
     Далее нажмите на кнопку |Next-Button| (Рис. 10).
 
-    ..  figure:: images/tasks-creating/tasks-creating-31-open-full-form-from-plan.gif
+    ..  thumbnail:: images/tasks-creating/tasks-creating-31-open-full-form-from-plan.gif
         :alt: Открытие полной карточки
         :align: center
-    
-        Рис. 10. Открытие полной карточки замечания через чертёж
+        :title: Рис. 10. Открытие полной карточки замечания через чертёж
+        :show_caption: True
 
 ..  only:: latex
     

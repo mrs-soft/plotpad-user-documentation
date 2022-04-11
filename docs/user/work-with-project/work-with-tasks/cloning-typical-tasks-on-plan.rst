@@ -19,11 +19,11 @@
 
 ..  only:: html
 
-    ..  figure:: images/cloning-typical-tasks-on-plan/cloning-typical-tasks-on-plan-1.gif
+    ..  thumbnail:: images/cloning-typical-tasks-on-plan/cloning-typical-tasks-on-plan-1.gif
         :alt: Клонирование
         :align: center
-        
-        Рис. 1. Клонирование замечаний
+        :title: Рис. 1. Клонирование замечаний
+        :show_caption: True
 
 ..  only:: latex
 

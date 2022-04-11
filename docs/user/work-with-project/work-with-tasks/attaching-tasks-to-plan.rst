@@ -14,11 +14,11 @@
 
     #.  Определите место для фиксации замечания на плане. Подтвердите действие, нажав на кнопку «ОК».
 
-        ..  figure:: images/attaching-tasks-to-plan/attaching-tasks-to-plan-1-attaching.gif
+        ..  thumbnail:: images/attaching-tasks-to-plan/attaching-tasks-to-plan-1-attaching.gif
             :alt: Прикрепление замечания к чертежу
             :align: center
-        
-            Рис. 1. Прикрепление замечания к чертежу
+            :title: Рис. 1. Прикрепление замечания к чертежу
+            :show_caption: True
 
 ..  only:: latex
 
@@ -27,7 +27,7 @@
         ..  figure:: images/attaching-tasks-to-plan/attaching-tasks-to-plan-1-mark-on-plan-button.png
             :alt: Прикрепление замечания к чертежу
             :align: center
-            
+
             Рис. 1. Кнопка «Отметить на плане»
 
     #.  Далее выберите путь, по которому находится чертёж (Рис. 2). 

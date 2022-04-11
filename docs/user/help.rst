@@ -6,11 +6,11 @@
 
 ..  only:: html
 
-    ..  figure:: images/help-1-in-main-menu.gif
+    ..  thumbnail:: images/help-1-in-main-menu.gif
         :alt: Раздел "Помощь"
         :align: center    
-        
-        Рис. 1.  Раздел «Помощь» в главном меню
+        :title: Рис. 1.  Раздел «Помощь» в главном меню
+        :show_caption: True
 
 ..  only:: latex
 
@@ -23,8 +23,8 @@
 Здесь вы найдете контакты для связи с нами, ссылку на наш канал на Youtube, где выложены различные обучающие видео и вебинары,
 а также руководство пользователя, которое будет доступно вам на любом устройстве при наличии сети Интернет (Рис. 2).
 
-..  figure:: images/help-2-overview.png
+..  thumbnail:: images/help-2-overview.png
     :alt: Раздел "Помощь"
     :align: center
-
-    Рис. 2.  Раздел "Помощь"
+    :title: Рис. 2.  Раздел "Помощь"
+    :show_caption: True

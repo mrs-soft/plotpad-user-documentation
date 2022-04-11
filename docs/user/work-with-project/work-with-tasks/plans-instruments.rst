@@ -4,20 +4,23 @@
 Откройте необходимый вам чертеж.
 В правом верхнем углу доступны две панели с инструменты для работы с чертежом (Рис. 1).
 
-..  figure:: images/plans-instruments/plans-instrument-1-plan-with-panels.png
+..  thumbnail:: images/plans-instruments/plans-instrument-1-plan-with-panels.png
     :alt: Чертёж
     :align: center
-
-    Рис. 1. Чертеж с панелями инструментов
+    :title: Рис. 1. Чертеж с панелями инструментов
+    :show_caption: True
 
 На верхней панели расположены управляющие элементы, а на правой --- выделяющие.
 
 Панель с управляющими элементами
 --------------------------------
 
-..  figure:: images/plans-instruments/plans-instrument-2-manage-panel.png
+..  thumbnail:: images/plans-instruments/plans-instrument-2-manage-panel.png
     :alt: Панель с управляющими элементами
     :align: center
+    :width: 50%
+
+----
 
 Рассмотрим каждый инструмент на панели:
 
@@ -30,19 +33,19 @@
     У всех планов можно отключить **слой аннотаций** --- это слой нарисованных фигур на плане: линий, кругов, стрелок и тому подобное, ---
     и слой замечаний (Рис. 2). Для DWF-чертежей, в которых сохранились слои плана, есть доступ к включению и выключению некоторых из них.
 
-    ..  figure:: images/plans-instruments/plans-instrument-6-manage-panel-layers.png
+    ..  thumbnail:: images/plans-instruments/plans-instrument-6-manage-panel-layers.png
         :alt: Работа со слоями
-        :align: center
-        
-        Рис. 2. Работа со слоями
+        :width: 50%
+        :title: Рис. 2. Работа со слоями
+        :show_caption: True
 
 #.  |Settings-Button| --- настройки плана. Позволяет перейти в настройки чертежа (Рис. 3).
 
-    ..  figure:: images/plans-instruments/plans-instrument-7-manage-panel-settings.png
+    ..  thumbnail:: images/plans-instruments/plans-instrument-7-manage-panel-settings.png
         :alt: Настройки чертежа
         :align: center
-        
-        Рис. 3. Окно настроек чертежа.
+        :title: Рис. 3. Окно настроек чертежа
+        :show_caption: True
 
 #.  |Exit-Button| --- закрыть чертеж.
 
@@ -51,22 +54,22 @@
 
 Панель справа состоит из 6 кнопок (Рис. 4):
 
-..  figure:: images/plans-instruments/plans-instrument-9-selection-panel.png
+..  thumbnail:: images/plans-instruments/plans-instrument-9-selection-panel.png
     :alt: Работа со слоями
-    :align: center
-
-    Рис. 4. Инструменты для работы с чертежом.
+    :width: 40%
+    :title: Рис. 4. Инструменты для работы с чертежом
+    :show_caption: True
 
 #.  |Selection-Button| --- режим выделения. Позволяет выделить несколько замечаний и аннотаций на чертеже.
     Необходим для совершения действия сразу с несколькими элементами на чертеже (Рис. 5).
 
     ..  only:: html
 
-        ..  figure:: images/plans-instruments/plans-instrument-10-selection-panel-selection.gif
+        ..  thumbnail:: images/plans-instruments/plans-instrument-10-selection-panel-selection.gif
             :alt: Работа со слоями
             :align: center
-
-            Рис. 5. Панель выделения.
+            :title: Рис. 5. Панель выделения
+            :show_caption: True
 
     ..  only:: latex
 
@@ -81,11 +84,11 @@
     Вам доступно несколько заданных коэффициентов увеличения и приближения:
     50%, 100%, 150%, 200% и **Fit** (Рис. 6).
 
-    ..  figure:: images/plans-instruments/plans-instrument-12-selection-panel-scale.png
+    ..  thumbnail:: images/plans-instruments/plans-instrument-12-selection-panel-scale.png
         :alt: Масштабирование
-        :align: center
-
-        Рис. 6. Заданные коэффициенты масштабирование.
+        :width: 50%
+        :title: Рис. 6. Заданные коэффициенты масштабирование.
+        :show_caption: True
 
     ..  note:: **Fit** --- масштабирование размера чертежа в соответствие с размером экрана устройства.
 
@@ -102,46 +105,46 @@
     *   облако,
     *   текст на чертеже.
 
-    ..  figure:: images/plans-instruments/plans-instrument-13-selection-panel-drawing.png
+    ..  thumbnail:: images/plans-instruments/plans-instrument-13-selection-panel-drawing.png
         :alt: Метки
-        :align: center
-
-        Рис. 7. Набор инструментов для создания меток
+        :width: 70%
+        :title: Рис. 7. Набор инструментов для создания меток
+        :show_caption: True
 
     После выбора любого инструмента, внизу всей панели появляются две дополнительные кнопки:
     
     *   |Width-Button| --- настройка толщины линии,
 
-        ..  figure:: images/plans-instruments/plans-instrument-10-selection-panel-width.png
+        ..  thumbnail:: images/plans-instruments/plans-instrument-10-selection-panel-width.png
             :alt: Толщина линии
-            :align: center
-
-            Рис. 8. Настройка толщины линии
+            :width: 50%
+            :title: Рис. 8. Настройка толщины линии
+            :show_caption: True
 
     *   |Color-Button| --- настройка цвета.
 
-        ..  figure:: images/plans-instruments/plans-instrument-10-selection-panel-color.png
-            :alt: Толщина линии
-            :align: center
-
-            Рис. 9. Настройка цвета
+        ..  thumbnail:: images/plans-instruments/plans-instrument-10-selection-panel-color.png
+            :alt: Цвет линии
+            :width: 40%
+            :title: Рис. 9. Настройка цвета
+            :show_caption: True
 
 #.  |Measurements-Button| --- измерения. Позволяет измерить, отметить, задать расстояния между объектами.
     Символ на кнопке меняется в зависимости от последнего используемого инструмента (Рис. 10).
 
-    ..  figure:: images/plans-instruments/plans-instrument-14-selection-panel-measurements.png
+    ..  thumbnail:: images/plans-instruments/plans-instrument-14-selection-panel-measurements.png
         :alt: Работа со слоями
-        :align: center
-
-        Рис. 10. Набор инструментов для измерения
+        :width: 40%
+        :title: Рис. 10. Набор инструментов для измерения
+        :show_caption: True
 
 #.  |Tasks-Creating-Button| --- работа с замечаниями. При двойном нажатии появляется следующая панель работы с замечанием: 
 
-    ..  figure:: images/plans-instruments/plans-instrument-15-selection-panel-tasks.png
+    ..  thumbnail:: images/plans-instruments/plans-instrument-15-selection-panel-tasks.png
         :alt: Работа со слоями
-        :align: center
-
-        Рис. 11. Панель замечаний
+        :width: 40%
+        :title: Рис. 11. Панель замечаний
+        :show_caption: True
 
     *   |Tasks-Creating-Button| --- создает замечание. 
     *   |Tasks-Bim-Button| --- доступна только при работе с BIM моделями. Позволяет создать замечание в BIM-модели.

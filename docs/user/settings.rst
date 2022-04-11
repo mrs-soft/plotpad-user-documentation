@@ -6,11 +6,11 @@
 
 ..  only:: html
 
-    ..  figure:: images/settings-1-in-main-menu.gif
+    ..  thumbnail:: images/settings-1-in-main-menu.gif
         :alt: Поиск документа
         :align: center
-    
-        Рис. 1. Раздел «Настройки» в главном меню
+        :title: Рис. 1. Раздел «Настройки» в главном меню
+        :show_caption: True
 
 ..  only:: latex
 
@@ -23,11 +23,11 @@
 В разделе «Настройки» вам необходимо выбрать тип уведомлений, которые Вы хотите получать: Push-уведомления 
 и/или E-mail --- уведомления (Рис. 2).
 
-..  figure:: images/settings-2-overview.png
+..  thumbnail:: images/settings-2-overview.png
     :alt: Поиск документа
     :align: center
-
-    Рис. 2. Раздел «Настройки»
+    :title: Рис. 2. Раздел «Настройки»
+    :show_caption: True
 
 Рекомендуем выбрать оба варианта уведомлений.
 

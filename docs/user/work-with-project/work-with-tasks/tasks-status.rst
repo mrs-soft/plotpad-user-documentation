@@ -13,11 +13,11 @@
 #.  Нажмите на кнопку «Состояние».
 #.  Измените статус на новый: **выполнен** или **проверен**.
 
-..  figure:: images/tasks-status/tasks-status-1-changing.png
+..  thumbnail:: images/tasks-status/tasks-status-1-changing.png
     :alt: Статус
     :align: center
-
-    Рис. 1. Изменение статуса замечания
+    :title: Рис. 1. Изменение статуса замечания
+    :show_caption: True
 
 Чтобы увидеть все открытые замечания, зайдите в раздел **Замечания** внутри элемента структуры.
 
@@ -28,11 +28,11 @@
 
 ..  only:: html
 
-    ..  figure:: images/tasks-status/tasks-status-2-opened-tasks.gif
+    ..  thumbnail:: images/tasks-status/tasks-status-2-opened-tasks.gif
         :alt: Открытые замечания
         :align: center
-    
-        Рис. 2. Открытые замечания
+        :title: Рис. 2. Открытые замечания
+        :show_caption: True
 
 ..  only:: latex
 
@@ -66,11 +66,11 @@
 
 Выберите нужные поля для фильтрации замечаний и нажмите кнопку «Применить» (Рис. 3):
 
-..  figure:: images/tasks-status/tasks-status-3-tasks-filtration.png
+..  thumbnail:: images/tasks-status/tasks-status-3-tasks-filtration.png
     :alt: Открытые замечания
     :align: center
-
-    Рис. 3. Фильтрация замечаний
+    :title: Рис. 3. Фильтрация замечаний
+    :show_caption: True
 
 В программе предложены следующие типы фильтров:
 
@@ -104,11 +104,11 @@
 
 ..  only:: html
 
-    ..  figure:: images/tasks-status/tasks-status-4-tasks-sorting.gif
+    ..  thumbnail:: images/tasks-status/tasks-status-4-tasks-sorting.gif
         :alt: Сортировка замечаний
         :align: center
-    
-        Рис. 4. Сортировка замечаний
+        :title: Рис. 4. Сортировка замечаний
+        :show_caption: True
 
 ..  only:: latex
 
@@ -127,11 +127,11 @@
 
 ..  only:: html
 
-    ..  figure:: images/tasks-status/tasks-status-5-tasks-grouping.gif
+    ..  thumbnail:: images/tasks-status/tasks-status-5-tasks-grouping.gif
         :alt: Сортировка замечаний
         :align: center
-    
-        Рис. 5. Группировка замечаний
+        :title: Рис. 5. Группировка замечаний
+        :show_caption: True
 
 ..  only:: latex
 

@@ -23,11 +23,11 @@
 
 ..  only:: html
 
-    ..  figure:: images/document-creation/document-creation-1-document-creating.gif
+    ..  thumbnail:: images/document-creation/document-creation-1-document-creating.gif
         :alt: Формирование документа
         :align: center
-    
-        Рис. 1. Формирование документа
+        :title: Рис. 1. Формирование документа
+        :show_caption: True
 
 ..  only:: latex
 
@@ -39,19 +39,18 @@
 
 В открывшемся окне выбираем тип документа **Отчет** (Рис. 2).
 
-..  figure:: images/document-creation/document-creation-2-doc-types.png
+..  thumbnail:: images/document-creation/document-creation-2-doc-types.png
     :alt: Формирование документа
     :align: center
-
-    Рис. 2. Типы документов
+    :title: Рис. 2. Типы документов
 
 Далее выбираем необходимую вам форму отчёта. На Рис. 3 представлена только одна форма, так как это демонстрационный проект.
 
-..  figure:: images/document-creation/document-creation-3-report.png
+..  thumbnail:: images/document-creation/document-creation-3-report.png
     :alt: Формирование документа
     :align: center
-    
-    Рис. 3. Формирование отчёта
+    :title: Рис. 3. Формирование отчёта
+    :show_caption: True
 
 В Excel файле все замечания представлены в следующем разрезе:
 
@@ -80,11 +79,11 @@
 
 ..  only:: html
 
-    ..  figure:: images/document-creation/document-creation-4-single-order.gif
+    ..  thumbnail:: images/document-creation/document-creation-4-single-order.gif
         :alt: Формирование единичного предписания
         :align: center
-
-        Рис. 4. Создание предписание по одному замечанию
+        :title: Рис. 4. Создание предписание по одному замечанию
+        :show_caption: True
 
 ..  only:: latex
 
@@ -103,11 +102,11 @@
 
 ..  only:: html
     
-    ..  figure:: images/document-creation/document-creation-5-mass-order.gif
+    ..  thumbnail:: images/document-creation/document-creation-5-mass-order.gif
         :alt: Формирование массового предписания
         :align: center
-
-        Рис. 5. Создание массового предписания
+        :title: Рис. 5. Создание массового предписания
+        :show_caption: True
 
 ..  only:: latex
 
@@ -148,11 +147,11 @@
 
 ..  only:: html
     
-    ..  figure:: images/document-creation/document-creation-6-completion-certificate.gif
+    ..  thumbnail:: images/document-creation/document-creation-6-completion-certificate.gif
         :alt: Формирование акта
         :align: center
-
-        Рис. 5. Создание акта по замечанию
+        :title: Рис. 5. Создание акта по замечанию
+        :show_caption: True
 
 ..  only:: latex
 

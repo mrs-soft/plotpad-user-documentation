@@ -21,12 +21,11 @@
             :alt: Добавить документацию
             :scale: 30%
 
-..  figure:: images/project-documentation-2-adding-documentation.gif
+..  thumbnail:: images/project-documentation-2-adding-documentation.gif
     :alt: Добавить документацию
     :align: center
-
-    Рис. 1. Добавление документации к уровню структуры 
-    «Испанские кварталы»
+    :title: Рис. 1. Добавление документации к уровню структуры «Испанские кварталы»
+    :show_caption: True
 
 Кнопка «Загрузить новый» позволяет загрузить документ с вашего компьютера и/или мобильного устройства.
 
@@ -62,11 +61,11 @@
 После, зайдите в созданную папку и нажмите на кнопку «Добавить».
 Далее нажмите на кнопку «Загрузить новый» и загрузите новый документ (Рис.2).
 
-..  figure:: images/project-documentation-4-creating-folder.gif
+..  thumbnail:: images/project-documentation-4-creating-folder.gif
     :alt: Создать папку
     :align: center
-
-    Рис. 2. Добавление документации. Создание папки для чертежей. Добавление документации в папку.
+    :title: Рис. 2. Создание папки для документации
+    :show_caption: True
 
 Папки можно переименовывать/архивировать.
 Для этого нажмите на кнопку |kebab-menu-button| напротив требуемого каталога и выберете нужное действие из выпадающего списка (Рис. 3).
@@ -74,11 +73,11 @@
 ..  |kebab-menu-button| image:: images/project-documentation-5-kebab-menu-icon.png
                         :alt: Кебаб-меню
 
-..  figure:: images/project-documentation-6-rename-archive-folder.gif
+..  thumbnail:: images/project-documentation-6-rename-archive-folder.gif
     :alt: Клонирование документации
     :align: center
-
-    Рис. 3. Редактирование папок.
+    :title: Рис. 3. Редактирование папок
+    :show_caption: True
 
 Форматы файлов
 --------------
@@ -106,11 +105,11 @@
 Выберите документ из предложенных в списке, и он появится в документации необходимого элемента структуры (рис. 4).
 
 
-..  figure:: images/project-documentation-7-cloning-documentation.gif
+..  thumbnail:: images/project-documentation-7-cloning-documentation.gif
     :alt: Клонирование документации
     :align: center
-
-    Рис. 4. Клонирование документов
+    :title: Рис. 4. Клонирование документов
+    :show_caption: True
 
 Редактирование
 ++++++++++++++
@@ -124,11 +123,11 @@
 
 Это зависит от возможностей браузера, разработчик не может повлиять на их работу.
 
-..  figure:: images/project-documentation-8-document-editing.gif
+..  thumbnail:: images/project-documentation-8-document-editing.gif
     :alt: Редактирование документации
     :align: center
-
-    Рис. 5. Редактирование документов
+    :title: Рис. 5. Редактирование документов
+    :show_caption: True
 
 Поиск
 +++++
@@ -137,11 +136,11 @@
 В строку поиска (Рис. 6) введите название документа или слова, содержащиеся в названии,
 и нажмите на кнопку «Поиск» (на иконку лупы).
 
-..  figure:: images/project-documentation-9-document-searching.gif
+..  thumbnail:: images/project-documentation-9-document-searching.gif
     :alt: Поиск документации
     :align: center
-
-    Рис. 6. Поиск среди документов
+    :title: Рис. 6. Поиск среди документов
+    :show_caption: True
 
 Загрузка документов в кэш
 +++++++++++++++++++++++++
@@ -154,12 +153,11 @@
 Чтобы загрузить сразу несколько или все документы, зайдите в раздел «Документация», нажав на соответствующую кнопку раздела в проекте.
 Далее нажмите на кнопку «Все документы» (Рис. 7).
 
-..  figure:: images/project-documentation-10-mobile-all-documents.jpg
+..  thumbnail:: images/project-documentation-10-mobile-all-documents.jpg
     :alt: Кэш в мобильном приложении
-    :align: center
-    :scale: 30%
-
-    Рис. 7. Все документы
+    :width: 40%
+    :title: Рис. 7. Все документы
+    :show_caption: True
 
 В разделе «Все документы» поставьте галочку в поле «Выбрать все» (Рис. 8) или напротив необходимых документов
 в списке и нажмите на кнопку «Загрузить» |download-icon| (Рис. 9).
@@ -168,19 +166,17 @@
                     :alt: Загрузка документов
                     :scale: 30%
 
-..  figure:: images/project-documentation-11-mobile-cash-choose-all.gif
+..  thumbnail:: images/project-documentation-11-mobile-cash-choose-all.gif
     :alt: Кэш в мобильном приложении
-    :align: center
-    :scale: 30%
+    :width: 40%
+    :title: Рис. 8. Выбрать все
+    :show_caption: True
 
-    Рис. 8. Выбрать все
-
-..  figure:: images/project-documentation-12-mobile-cash-downloading.gif
+..  thumbnail:: images/project-documentation-12-mobile-cash-downloading.gif
     :alt: Кэш в мобильном приложении
-    :align: center
-    :scale: 30%
-
-    Рис. 9. Загрузка выбранных документов в кэш
+    :width: 40%
+    :title: Рис. 9. Загрузка выбранных документов в кэш
+    :show_caption: True
 
 ..  warning:: Объем кэша может быть ограничен памятью устройства, в таком случае не все данные могут быть загружены.
 
@@ -190,25 +186,23 @@
                       :alt: Загруженные документы
                       :scale: 35%
 
-..  figure:: images/project-documentation-14-mobile-cash-downloaded.jpg
+..  thumbnail:: images/project-documentation-14-mobile-cash-downloaded.jpg
     :alt: Кэш в мобильном приложении
-    :align: center
-    :scale: 30%
-
-    Рис. 10. Загруженные документы
+    :width: 40%
+    :title: Рис. 10. Загруженные документы
+    :show_caption: True
 
 В разделе |not-downloaded-icon| --- незагруженные (Рис. 11).
 
 ..  |not-downloaded-icon| image:: images/project-documentation-15-mobile-cash-not-downloaded-icon.png
                       :alt: Незагруженные документы
-                      :scale: 35%
+                      :width: 3%
 
-..  figure:: images/project-documentation-16-mobile-cash-not-downloaded.jpg
+..  thumbnail:: images/project-documentation-16-mobile-cash-not-downloaded.jpg
     :alt: Кэш в мобильном приложении
-    :align: center
-    :scale: 30%
-
-    Рис. 11. Незагруженные документы
+    :width: 40%
+    :title: Рис. 11. Незагруженные документы
+    :show_caption: True
 
 ..  attention:: Невозможно одновременно загружать документ в кэш и работать на нем.
                 
@@ -226,11 +220,11 @@
 вы получите доступ ко всем созданным по данному элементу структуры предписаниям и всей загруженной к нему документации
 --- фотографии, документы и так далее (Рис. 8).
 
-..  figure:: images/project-documentation-17-application.gif
+..  thumbnail:: images/project-documentation-17-application.gif
     :alt: Раздел «Приложения»
     :align: center
-
-    Рис. 8. Раздел «Приложения»
+    :title: Рис. 8. Раздел «Приложения»
+    :show_caption: True
 
 В данном разделе также реализован механизм поиска среди документов:
 
@@ -242,11 +236,11 @@
     Задайте фильтр приложений по времени создания, автору, формату (фотография, документ).
     Нажмите на кнопку «Применить» (Рис. 9).
 
-..  figure:: images/project-documentation-18-application-sort.png
+..  thumbnail:: images/project-documentation-18-application-sort.png
     :alt: Фильтрация приложений
     :align: center
-
-    Рис. 9. Фильтрация приложений
+    :title: Рис. 9. Фильтрация приложений
+    :show_caption: True
 
 Все файлы из раздела «Приложения» можно скачать.
 Для этого нажмите на кнопку |download-button|.
@@ -265,11 +259,11 @@
 
 ..  only:: html
 
-    ..  figure:: images/project-documentation-22-deleting-multiple-applications.gif
+    ..  thumbnail:: images/project-documentation-22-deleting-multiple-applications.gif
         :alt: Поиск документации
         :align: center
-
-        Рис. 10. Удаление отфильтрованных приложений
+        :title: Рис. 10. Удаление отфильтрованных приложений
+        :show_caption: True
 
 ..  |archive-button| image:: images/project-documentation-20-application-archive-button.png
                       :alt: Архивировать
@@ -286,8 +280,8 @@
 
 ..  only:: html
 
-    ..  figure:: images/project-documentation-23-deleting-one-application.gif
+    ..  thumbnail:: images/project-documentation-23-deleting-one-application.gif
         :alt: Поиск документации
         :align: center
-
-        Рис. 10. Удаление отдельного приложения
+        :title: Рис. 11. Удаление конкретного приложения
+        :show_caption: True
