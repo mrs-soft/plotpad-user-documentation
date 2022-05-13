@@ -8,6 +8,3 @@
     admin/installing-and-login
     admin/organization-setup
     admin/work-with-project
-    admin/documentation
-    admin/settings
-    admin/help

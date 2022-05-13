@@ -22,4 +22,4 @@
     organization-setup/activity-history
     organization-setup/attention
     organization-setup/recovery-mode
-    organization-setup/deleting
+    organization-setup/settings
