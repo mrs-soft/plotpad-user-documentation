@@ -1,0 +1,588 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Добавление сотрудников &#8212; документация Пользовательская документация ПК &#34;СтройКонтроль&#34; </title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinxcontrib-images/LightBox2/lightbox2/dist/css/lightbox.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/sphinxcontrib-images/LightBox2/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Алфавитный указатель" href="../../genindex.html" />
+    <link rel="search" title="Поиск" href="../../search.html" />
+    <link rel="next" title="Настройка прав сотрудников организации" href="employee-rights-setup.html" />
+    <link rel="prev" title="Настройка ролей" href="roles-setup.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="ru">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="../../index.html">
+  <img src="../../_static/logo.png" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../user.html">
+  Для пользователя
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="../../admin.html">
+  Для администратора
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../typical-instructions.html">
+  Типовые инструкции
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../video-instructions.html">
+  Видео-инструкции
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://apps.apple.com/ru/app/стройконтроль/id867522092" rel="noopener" target="_blank" title="AppStore">
+            <span><i class="fab fa-app-store"></i></span>
+            <label class="sr-only">AppStore</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.planstery.review&hl=ru" rel="noopener" target="_blank" title="PlayMarket">
+            <span><i class="fab fa-google-play"></i></span>
+            <label class="sr-only">PlayMarket</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://vk.com/m_r_s" rel="noopener" target="_blank" title="VK">
+            <span><i class="fab fa-vk"></i></span>
+            <label class="sr-only">VK</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Поиск по документации..." aria-label="Поиск по документации..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../installing-and-login.html">
+   Установка приложения и вход в систему
+  </a>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../organization-setup.html">
+   Первоначальная настройка организации
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="admin-panel-view.html">
+     Общий вид панели администрирования
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="requirements-setup.html">
+     Настройка реквизитов
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="roles-setup.html">
+     Настройка ролей
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Добавление сотрудников
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="employee-rights-setup.html">
+     Настройка прав сотрудников организации
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="project-creating.html">
+     Создание проектов
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="partners-setup.html">
+     Настройка контрагентов
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ref-book-setup.html">
+     Настройка справочника
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="activity-history.html">
+     История активности и действий пользователей
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="attention.html">
+     Оптимизация приложения в разделе «Обратить внимание»
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="recovery-mode.html">
+     Режим восстановления в панели администратора
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="settings.html">
+     Настройки в панели администрирования
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../work-with-project.html">
+   Работа с проектом
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../work-with-project/structure-creating.html">
+     Создание элементов структуры проекта
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../work-with-project/structure-moving.html">
+     Перенос элементов структуры
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../work-with-project/roles.html">
+     Добавление ответственных по ролям
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> На этой странице
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   Добавление сотрудников через интерфейс приложения
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   Добавление сотрудников через импорт файла
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id4">
+   Выгрузка списка сотрудников через экспорт файла
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id5">
+   Удаление сотрудников
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section id="id1">
+<h1>Добавление сотрудников<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Сотрудников организации добавляем в разделе <strong>Сотрудники</strong> (Рис. 1).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-1a62e3a3-b1f8-4934-9d48-9a3e507d3052"
+               href="../../_images/employee-adding-1-overview1.png"
+               title="Рис. 1. Раздел «Сотрудники»"
+               data-title="Рис. 1. Раздел «Сотрудники»"
+               
+               ><img src="../../_images/employee-adding-1-overview1.png"
+                     class="align-center"
+                     width="100%"
+                     height="auto"
+                     alt="Раздел «Сотрудники»"/>
+                </a><figcaption>Рис. 1. Раздел «Сотрудники»</figcaption>
+            </figure><p>Вы можете добавить сотрудников двумя способами:</p>
+<ol class="arabic simple">
+<li><p>По одному пользователю через интерфейс приложения.</p></li>
+<li><p>Сразу несколько пользователей через импорт текстового файла.</p></li>
+</ol>
+<section id="id2">
+<h2>Добавление сотрудников через интерфейс приложения<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для добавления нового сотрудника нажмите на кнопку <strong>Добавить</strong> в разделе <strong>Сотрудники</strong>.
+Далее появится окно ввода данных о новом сотруднике. Заполните все поля. В завершении нажмите кнопку <strong>Добавить</strong> (рис. 2).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-d3ca7aaa-1b16-484b-a8eb-a3385e9c349a"
+               href="../../_images/employee-adding-2-employee-menu1.png"
+               title="Рис. 2. Добавление нового сотрудника через интерфейс приложения"
+               data-title="Рис. 2. Добавление нового сотрудника через интерфейс приложения"
+               
+               ><img src="../../_images/employee-adding-2-employee-menu1.png"
+                     class=""
+                     width="60%"
+                     height="auto"
+                     alt="Добавление нового сотрудника через интерфейс приложения"/>
+                </a><figcaption>Рис. 2. Добавление нового сотрудника через интерфейс приложения</figcaption>
+            </figure><p>Если вы поставили галочку напротив поля «Без использования лицензионного места», этот сотрудник будет создан в приложении,
+но он не будет иметь доступа в нее, не будет получать уведомления и так далее.</p>
+<div class="admonition note">
+<p class="admonition-title">Примечание</p>
+<p>Его можно будет добавить на проект, работы, назначить ответственным на замечание, его профиль будет участвовать
+в аналитике, отчетах и так далее.</p>
+<p>Это дает возможность формировать предписания, в которых есть все участники строительства.
+Даже те, на которых нет смысла тратить лицензию приложения.</p>
+<p>Например, для передачи нарушений компании-исполнителю.</p>
+</div>
+</section>
+<section id="id3">
+<h2>Добавление сотрудников через импорт файла<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для добавления новых сотрудников списком из имеющегося файла подготовьте текстовый документ (<code class="docutils literal notranslate"><span class="pre">.txt</span></code>) со списком пользователей.
+Информацию по каждому пользователю необходимо занести в одну строку, при этом нужно соблюдать следующую последовательность:</p>
+<p style="text-align:center;">Почта<b>Tab</b>Фамилия<b>Пробел</b>Имя<b>Пробел</b>Отчество<b>Tab</b>Пароль<b>Tab</b>Телефон</p><hr class="docutils" />
+<figure class="">
+            <a 
+               data-lightbox="group-73605e56-ded2-467a-84a4-ec249e211f4b"
+               href="../../_images/employee-adding-3-txt-example1.png"
+               title="Рис. 3. Пример содержимого файла для двух пользователей"
+               data-title="Рис. 3. Пример содержимого файла для двух пользователей"
+               
+               ><img src="../../_images/employee-adding-3-txt-example1.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt="Пример содержимого файла для двух пользователей"/>
+                </a><figcaption>Рис. 3. Пример содержимого файла для двух пользователей</figcaption>
+            </figure><p>Колонки таблицы соответствуют следующим полям:</p>
+<ol class="arabic simple">
+<li><p>E-mail.</p></li>
+<li><p>ФИО (в именительном падеже).</p></li>
+<li><p>Пароль.</p></li>
+<li><p>Телефон.</p></li>
+</ol>
+<p>Далее нажмите на кнопку <strong>Импорт сотрудников</strong>, выберите необходимый файл и нажмите на кнопку <strong>Открыть</strong> (Рис. 4).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-cc1395ff-51d8-4538-b3a9-1837d501ee76"
+               href="../../_images/employee-adding-6-txt-employee-adding1.gif"
+               title="Рис. 4. Добавление сотрудников через импорт текстового файла"
+               data-title="Рис. 4. Добавление сотрудников через импорт текстового файла"
+               
+               ><img src="../../_images/employee-adding-6-txt-employee-adding1.gif"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt="Добавление сотрудников через импорт текстового файла"/>
+                </a><figcaption>Рис. 4. Добавление сотрудников через импорт текстового файла</figcaption>
+            </figure><div class="admonition warning">
+<p class="admonition-title">Предупреждение</p>
+<p>Исправлять электронный адрес сотрудника в программе нельзя!
+Обязательно проверьте введенную информацию по каждому сотруднику.
+Адрес электронной почты должен быть индивидуальным для каждого сотрудника.</p>
+<p>Двух сотрудников с одинаковыми адресами электронной почты зарегистрировать в программе нельзя.
+На указанный адрес будут приходить уведомления о ходе реализации проекта.</p>
+</div>
+<div class="admonition attention">
+<p class="admonition-title">Внимание</p>
+<p>Если при регистрации вы ввели в программе ошибочные данные электронной почты сотрудника,
+то придется удалить его профиль и создать заново.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Примечание</p>
+<p>Все сотрудники, добавленные через импорт текстового файла, автоматически назначаются на лицензионное место в программе.</p>
+<p>Нельзя добавить сотрудников через импорт текстового файла без использования лицензионного места!</p>
+</div>
+</section>
+<section id="id4">
+<h2>Выгрузка списка сотрудников через экспорт файла<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h2>
+<p>В программе предусмотрена возможность выгрузки архива с информацией в формате:
+где, на каком проекте и в какой роли назначены пользователи.
+Для выгрузки списка нажмите «Экспорт данных» (Рис.5).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-4a5890ce-3852-478a-bdd8-61b3dd8cb0b8"
+               href="../../_images/employee-adding-7-employee-exporting1.gif"
+               title="Рис. 5. Выгрузка списка сотрудников"
+               data-title="Рис. 5. Выгрузка списка сотрудников"
+               
+               ><img src="../../_images/employee-adding-7-employee-exporting1.gif"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt="Выгрузка списка сотрудников"/>
+                </a><figcaption>Рис. 5. Выгрузка списка сотрудников</figcaption>
+            </figure><p>При экспорте формируется файл в формате <code class="docutils literal notranslate"><span class="pre">.csv</span></code>. Для прочтения его нужно импортировать, например в Microsoft Excel 2021.</p>
+<div class="admonition note">
+<p class="admonition-title">Примечание</p>
+<p>Для старых версий Microsoft Excel инструкция тоже подходит, но внешний вид программы будет отличаться.</p>
+</div>
+<p>Для импорта в Excel перейдите в меню «Данные» — «Получить данные» — «Из файла» — «Из текстового/CSV-файла» (Рис.6).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-4d5f8276-bf4b-46fe-ab92-bbd718fdac8b"
+               href="../../_images/employee-adding-9-exporting-excel-importing1.png"
+               title="Рис. 6. Меню "Данные" в Excel"
+               data-title="Рис. 6. Меню "Данные" в Excel"
+               
+               ><img src="../../_images/employee-adding-9-exporting-excel-importing1.png"
+                     class=""
+                     width="70%"
+                     height="auto"
+                     alt="Меню "Данные" в Excel"/>
+                </a><figcaption>Рис. 6. Меню "Данные" в Excel</figcaption>
+            </figure><p>Найдите файл, который вы выгрузили и нажмите «Импорт» (Рис.7).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-21f1d67c-c612-48dd-bda7-730affc6cd18"
+               href="../../_images/employee-adding-10-exporting-excel-importing-from-pc1.png"
+               title="Рис. 7. Поиск CSV файл на компьютере"
+               data-title="Рис. 7. Поиск CSV файл на компьютере"
+               
+               ><img src="../../_images/employee-adding-10-exporting-excel-importing-from-pc1.png"
+                     class=""
+                     width="70%"
+                     height="auto"
+                     alt="Поиск CSV файла на компьютере"/>
+                </a><figcaption>Рис. 7. Поиск CSV файл на компьютере</figcaption>
+            </figure><p>После загрузки откроется мастер по импорту текстовых документов (Рис.8).</p>
+<ol class="arabic">
+<li><p>В поле «Источник файла» выберите:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">65001</span><span class="p">:</span> <span class="n">Юникод</span> <span class="p">(</span><span class="n">UTF</span><span class="o">-</span><span class="mi">8</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>«Разделитель» установите –Пользовательский– и выберете «$» в качестве разделителя для строчек.</p></li>
+<li><p>«Обнаружение типов данных» по умолчанию стоит на значении «На основе первых 200 строк» — его можно не менять.</p>
+<p>Если таблица после импорта отображается некорректно, то поменяйте значение на «На основе всего набора данных».
+В этом случае импорт может занять больше времени, если у вас много сотрудников в приложении.</p>
+</li>
+</ol>
+<figure class="">
+            <a 
+               data-lightbox="group-c05c8932-cc83-42f8-ab7a-ed642a5d942e"
+               href="../../_images/employee-adding-11-exporting-excel-set-up1.png"
+               title="Рис. 8 Настройка мастера импорта"
+               data-title="Рис. 8 Настройка мастера импорта"
+               
+               ><img src="../../_images/employee-adding-11-exporting-excel-set-up1.png"
+                     class=""
+                     width="70%"
+                     height="auto"
+                     alt="Настройка мастера импорта"/>
+                </a><figcaption>Рис. 8 Настройка мастера импорта</figcaption>
+            </figure></section>
+<section id="id5">
+<h2>Удаление сотрудников<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+<p>В разделе «Сотрудники» реализован механизм архивирования/удаления сотрудников.
+Для этого нажмите на кнопку «Архивировать» (Рис. 9).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-59f17a90-60d1-48c6-a117-b8becab5803d"
+               href="../../_images/employee-adding-12-deleting1.png"
+               title="Рис. 10. Удаление сотрудника"
+               data-title="Рис. 10. Удаление сотрудника"
+               
+               ><img src="../../_images/employee-adding-12-deleting1.png"
+                     class=""
+                     width="70%"
+                     height="auto"
+                     alt="Удаление сотрудника"/>
+                </a><figcaption>Рис. 10. Удаление сотрудника</figcaption>
+            </figure><p>Вы увидите красные «крестики» напротив элементов списка.
+Архивируйте элемент, нажав на «крестик». Чтобы вернуться в обычный режим, нажмите на кнопку «Вернуться в просмотр».</p>
+<p>После удаления сотрудника из раздела «Сотрудники», он будет помечен, как удаленный.
+При этом его данные останутся в программе, и сохранится возможность формирования статистики по нему (Рис. 11).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-f554e2f9-3490-412d-a813-ac1812f33664"
+               href="../../_images/employee-adding-13-deleted1.png"
+               title="Рис. 11. Удаленный сотрудник"
+               data-title="Рис. 11. Удаленный сотрудник"
+               
+               ><img src="../../_images/employee-adding-13-deleted1.png"
+                     class=""
+                     width="70%"
+                     height="auto"
+                     alt="Удаленный сотрудник"/>
+                </a><figcaption>Рис. 11. Удаленный сотрудник</figcaption>
+            </figure></section>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="roles-setup.html" title="назад страница">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">назад</p>
+            <p class="prev-next-title">Настройка ролей</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="employee-rights-setup.html" title="вперёд страница">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">вперёд</p>
+        <p class="prev-next-title">Настройка прав сотрудников организации</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2022, ООО &#34;Мобильные решения для строительства&#34;.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.2.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

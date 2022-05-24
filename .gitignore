@@ -1,0 +1,6 @@
+venv/
+*.mo
+build/
+latex/
+.vscode/
+*.log

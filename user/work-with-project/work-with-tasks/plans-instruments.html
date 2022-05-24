@@ -1,0 +1,595 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Инструменты для работы на плане &#8212; документация Пользовательская документация ПК &#34;СтройКонтроль&#34; </title>
+    
+  <link href="../../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinxcontrib-images/LightBox2/lightbox2/dist/css/lightbox.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/custom.css" />
+    
+  <link rel="preload" as="script" href="../../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script src="../../../_static/translations.js"></script>
+    <script src="../../../_static/sphinxcontrib-images/LightBox2/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="../../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    <link rel="shortcut icon" href="../../../_static/favicon.ico"/>
+    <link rel="index" title="Алфавитный указатель" href="../../../genindex.html" />
+    <link rel="search" title="Поиск" href="../../../search.html" />
+    <link rel="next" title="Генплан" href="general-plan.html" />
+    <link rel="prev" title="Создание замечаний" href="tasks-creating.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="ru">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="../../../index.html">
+  <img src="../../../_static/logo.png" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="../../../user.html">
+  Для пользователя
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../admin.html">
+  Для администратора
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../typical-instructions.html">
+  Типовые инструкции
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../video-instructions.html">
+  Видео-инструкции
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://apps.apple.com/ru/app/стройконтроль/id867522092" rel="noopener" target="_blank" title="AppStore">
+            <span><i class="fab fa-app-store"></i></span>
+            <label class="sr-only">AppStore</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.planstery.review&hl=ru" rel="noopener" target="_blank" title="PlayMarket">
+            <span><i class="fab fa-google-play"></i></span>
+            <label class="sr-only">PlayMarket</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://vk.com/m_r_s" rel="noopener" target="_blank" title="VK">
+            <span><i class="fab fa-vk"></i></span>
+            <label class="sr-only">VK</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Поиск по документации..." aria-label="Поиск по документации..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../installing-and-login.html">
+   Установка приложения и вход в систему
+  </a>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../../work-with-project.html">
+   Работа с проектом
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../interface-view.html">
+     Общий вид интерфейса пользователя
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../start-work.html">
+     Начало работы
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../elements-of-structure.html">
+     Элементы структуры объекта
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../project-documentation.html">
+     Рабочая документация по проекту
+    </a>
+   </li>
+   <li class="toctree-l2 current active has-children">
+    <a class="reference internal" href="../work-with-tasks.html">
+     Работа с замечаниями
+    </a>
+    <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul class="current">
+     <li class="toctree-l3">
+      <a class="reference internal" href="tasks-creating.html">
+       Создание замечаний
+      </a>
+     </li>
+     <li class="toctree-l3 current active">
+      <a class="current reference internal" href="#">
+       Инструменты для работы на плане
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="general-plan.html">
+       Генплан
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="cloning-typical-tasks-on-plan.html">
+       Клонирование однотипных замечаний на чертеже
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="attaching-tasks-to-plan.html">
+       Прикрепление ранее созданного замечания к чертежу. Перемещение на плане.
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="tasks-status.html">
+       Изменение статуса замечания. Проверка замечаний. Фильтрация, сортировка и группировка замечаний.
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="document-creation.html">
+       Формирование документов
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../analytics.html">
+     Аналитика
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../settings.html">
+     Настройки проекта/элемента структуры
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../documentation.html">
+   Документооборот
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../settings.html">
+   Настройки
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../help.html">
+   Помощь
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> На этой странице
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   Панель с управляющими элементами
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   Панель с выделяющими элементами
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section id="id1">
+<h1>Инструменты для работы на плане<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Откройте необходимый вам чертеж.
+В правом верхнем углу доступны две панели с инструменты для работы с чертежом (Рис. 1).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-0cf8b701-8dfb-4e3b-b841-d2cf5029c468"
+               href="../../../_images/plans-instrument-1-plan-with-panels1.png"
+               title="Рис. 1. Чертеж с панелями инструментов"
+               data-title="Рис. 1. Чертеж с панелями инструментов"
+               
+               ><img src="../../../_images/plans-instrument-1-plan-with-panels1.png"
+                     class="align-center"
+                     width="100%"
+                     height="auto"
+                     alt="Чертёж"/>
+                </a><figcaption>Рис. 1. Чертеж с панелями инструментов</figcaption>
+            </figure><p>На верхней панели расположены управляющие элементы, а на правой — выделяющие.</p>
+<section id="id2">
+<h2>Панель с управляющими элементами<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<a class=""
+               data-lightbox="group-78c463db-1063-4857-bfe3-87eec228f3b9"
+               href="../../../_images/plans-instrument-2-manage-panel1.png"
+               title=""
+               data-title=""
+               
+               ><img src="../../../_images/plans-instrument-2-manage-panel1.png"
+                     class="align-center"
+                     width="50%"
+                     height="auto"
+                     alt="Панель с управляющими элементами"/>
+                </a><hr class="docutils" />
+<p>Рассмотрим каждый инструмент на панели:</p>
+<ol class="arabic">
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-3-manage-panel-genplan.png"><img alt="Генплан" src="../../../_images/plans-instrument-3-manage-panel-genplan.png" style="width: 47.599999999999994px; height: 28.0px;" /></a> — работа с Генпланом. Позволяет преобразовать чертеж в Генплан. Описание работы функционала в следующем разделе.</p></li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-4-manage-panel-favorite.png"><img alt="Избранное" src="../../../_images/plans-instrument-4-manage-panel-favorite.png" style="width: 47.599999999999994px; height: 28.0px;" /></a> — добавление в избранное. После нажатия на эту кнопку чертеж будет добавлен в раздел «Избранное».</p></li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-5-manage-panel-tasks-registry.png"><img alt="Реестр замечаний" src="../../../_images/plans-instrument-5-manage-panel-tasks-registry.png" style="width: 47.599999999999994px; height: 28.0px;" /></a> — реестр замечаний. Нажатие кнопки переместит вас в реестр замечаний, относящихся к данному чертежу.
+Нажав на любое замечание, вы можете перейти к его редактированию.</p></li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-6-manage-panel-layers-button.png"><img alt="Реестр замечаний" src="../../../_images/plans-instrument-6-manage-panel-layers-button.png" style="width: 47.599999999999994px; height: 28.0px;" /></a> — слои. При нажатии кнопки «Слои» открывается меню выбора слоев для последующего отключения/включения.</p>
+<p>У всех планов можно отключить <strong>слой аннотаций</strong> — это слой нарисованных фигур на плане: линий, кругов, стрелок и тому подобное, —
+и слой замечаний (Рис. 2). Для DWF-чертежей, в которых сохранились слои плана, есть доступ к включению и выключению некоторых из них.</p>
+<figure class="">
+            <a 
+               data-lightbox="group-65048d99-aaa5-4f4d-b0e2-ce897b807710"
+               href="../../../_images/plans-instrument-6-manage-panel-layers1.png"
+               title="Рис. 2. Работа со слоями"
+               data-title="Рис. 2. Работа со слоями"
+               
+               ><img src="../../../_images/plans-instrument-6-manage-panel-layers1.png"
+                     class=""
+                     width="50%"
+                     height="auto"
+                     alt="Работа со слоями"/>
+                </a><figcaption>Рис. 2. Работа со слоями</figcaption>
+            </figure></li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-7-manage-panel-settings-button.png"><img alt="Настройки" src="../../../_images/plans-instrument-7-manage-panel-settings-button.png" style="width: 47.599999999999994px; height: 28.0px;" /></a> — настройки плана. Позволяет перейти в настройки чертежа (Рис. 3).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-451c5d32-924c-4c8a-87a6-c8b1f7978465"
+               href="../../../_images/plans-instrument-7-manage-panel-settings1.png"
+               title="Рис. 3. Окно настроек чертежа"
+               data-title="Рис. 3. Окно настроек чертежа"
+               
+               ><img src="../../../_images/plans-instrument-7-manage-panel-settings1.png"
+                     class="align-center"
+                     width="100%"
+                     height="auto"
+                     alt="Настройки чертежа"/>
+                </a><figcaption>Рис. 3. Окно настроек чертежа</figcaption>
+            </figure></li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-8-manage-panel-exit.png"><img alt="Выход из чертежа" src="../../../_images/plans-instrument-8-manage-panel-exit.png" style="width: 33.599999999999994px; height: 28.0px;" /></a> — закрыть чертеж.</p></li>
+</ol>
+</section>
+<section id="id3">
+<h2>Панель с выделяющими элементами<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Панель справа состоит из 6 кнопок (Рис. 4):</p>
+<figure class="">
+            <a 
+               data-lightbox="group-2c7ba10e-ebd6-4ff7-9859-7130d34db9a9"
+               href="../../../_images/plans-instrument-9-selection-panel1.png"
+               title="Рис. 4. Инструменты для работы с чертежом"
+               data-title="Рис. 4. Инструменты для работы с чертежом"
+               
+               ><img src="../../../_images/plans-instrument-9-selection-panel1.png"
+                     class=""
+                     width="40%"
+                     height="auto"
+                     alt="Работа со слоями"/>
+                </a><figcaption>Рис. 4. Инструменты для работы с чертежом</figcaption>
+            </figure><ol class="arabic">
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-10-selection-panel-selection-button.png"><img alt="Выход из чертежа" src="../../../_images/plans-instrument-10-selection-panel-selection-button.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> — режим выделения. Позволяет выделить несколько замечаний и аннотаций на чертеже.
+Необходим для совершения действия сразу с несколькими элементами на чертеже (Рис. 5).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-e2ddf61e-399b-4573-bd42-3a6a67df41bd"
+               href="../../../_images/plans-instrument-10-selection-panel-selection1.gif"
+               title="Рис. 5. Панель выделения"
+               data-title="Рис. 5. Панель выделения"
+               
+               ><img src="../../../_images/plans-instrument-10-selection-panel-selection1.gif"
+                     class="align-center"
+                     width="100%"
+                     height="auto"
+                     alt="Работа со слоями"/>
+                </a><figcaption>Рис. 5. Панель выделения</figcaption>
+            </figure></li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-11-selection-panel-choose-button.png"><img alt="Выход из чертежа" src="../../../_images/plans-instrument-11-selection-panel-choose-button.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> — режим выбора. Позволяет перемещать чертеж на экране, выбирать и открывать контекстное меню замечания.</p></li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-12-selection-panel-scale-button.png"><img alt="Выход из чертежа" src="../../../_images/plans-instrument-12-selection-panel-scale-button.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> — масштабирование. Позволяет изменить масштаб чертежа.
+Вам доступно несколько заданных коэффициентов увеличения и приближения:
+50%, 100%, 150%, 200% и <strong>Fit</strong> (Рис. 6).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-dee25d1b-c1a6-45b5-8b51-fc160a32f191"
+               href="../../../_images/plans-instrument-12-selection-panel-scale1.png"
+               title="Рис. 6. Заданные коэффициенты масштабирование."
+               data-title="Рис. 6. Заданные коэффициенты масштабирование."
+               
+               ><img src="../../../_images/plans-instrument-12-selection-panel-scale1.png"
+                     class=""
+                     width="50%"
+                     height="auto"
+                     alt="Масштабирование"/>
+                </a><figcaption>Рис. 6. Заданные коэффициенты масштабирование.</figcaption>
+            </figure><div class="admonition note">
+<p class="admonition-title">Примечание</p>
+<p><strong>Fit</strong> — масштабирование размера чертежа в соответствие с размером экрана устройства.</p>
+</div>
+</li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-13-selection-panel-drawing-button.png"><img alt="Выход из чертежа" src="../../../_images/plans-instrument-13-selection-panel-drawing-button.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> — рисование фигур, иконка может отличаться в зависимости от того, какую фигуру вы используете чаще всего.</p>
+<p>При нажатии на данную кнопку программа предложит пользователю набор инструментов для создания меток (Рис. 7):</p>
+<ul class="simple">
+<li><p>стрелка,</p></li>
+<li><p>линия,</p></li>
+<li><p>прямоугольник,</p></li>
+<li><p>круг,</p></li>
+<li><p>крест,</p></li>
+<li><p>ручка (свободное рисовании),</p></li>
+<li><p>облако,</p></li>
+<li><p>текст на чертеже.</p></li>
+</ul>
+<figure class="">
+            <a 
+               data-lightbox="group-06b000fb-2670-4cb0-974b-f2e3b736db72"
+               href="../../../_images/plans-instrument-13-selection-panel-drawing1.png"
+               title="Рис. 7. Набор инструментов для создания меток"
+               data-title="Рис. 7. Набор инструментов для создания меток"
+               
+               ><img src="../../../_images/plans-instrument-13-selection-panel-drawing1.png"
+                     class=""
+                     width="70%"
+                     height="auto"
+                     alt="Метки"/>
+                </a><figcaption>Рис. 7. Набор инструментов для создания меток</figcaption>
+            </figure><p>После выбора любого инструмента, внизу всей панели появляются две дополнительные кнопки:</p>
+<ul>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-10-selection-panel-width-button.png"><img alt="Выход из чертежа" src="../../../_images/plans-instrument-10-selection-panel-width-button.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> — настройка толщины линии,</p>
+<figure class="">
+            <a 
+               data-lightbox="group-80c5d346-90b1-45a9-bfdc-eaf919a730b7"
+               href="../../../_images/plans-instrument-10-selection-panel-width1.png"
+               title="Рис. 8. Настройка толщины линии"
+               data-title="Рис. 8. Настройка толщины линии"
+               
+               ><img src="../../../_images/plans-instrument-10-selection-panel-width1.png"
+                     class=""
+                     width="50%"
+                     height="auto"
+                     alt="Толщина линии"/>
+                </a><figcaption>Рис. 8. Настройка толщины линии</figcaption>
+            </figure></li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-10-selection-panel-color-button.png"><img alt="Выбор цвета" src="../../../_images/plans-instrument-10-selection-panel-color-button.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> — настройка цвета.</p>
+<figure class="">
+            <a 
+               data-lightbox="group-e4dd696c-42e1-4af2-b9cc-b689ea2f4064"
+               href="../../../_images/plans-instrument-10-selection-panel-color1.png"
+               title="Рис. 9. Настройка цвета"
+               data-title="Рис. 9. Настройка цвета"
+               
+               ><img src="../../../_images/plans-instrument-10-selection-panel-color1.png"
+                     class=""
+                     width="40%"
+                     height="auto"
+                     alt="Цвет линии"/>
+                </a><figcaption>Рис. 9. Настройка цвета</figcaption>
+            </figure></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-14-selection-panel-measurements-button.png"><img alt="Измерения" src="../../../_images/plans-instrument-14-selection-panel-measurements-button.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> — измерения. Позволяет измерить, отметить, задать расстояния между объектами.
+Символ на кнопке меняется в зависимости от последнего используемого инструмента (Рис. 10).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-c603c56a-9a7e-4bc0-91c9-b7fab8c729b2"
+               href="../../../_images/plans-instrument-14-selection-panel-measurements1.png"
+               title="Рис. 10. Набор инструментов для измерения"
+               data-title="Рис. 10. Набор инструментов для измерения"
+               
+               ><img src="../../../_images/plans-instrument-14-selection-panel-measurements1.png"
+                     class=""
+                     width="40%"
+                     height="auto"
+                     alt="Работа со слоями"/>
+                </a><figcaption>Рис. 10. Набор инструментов для измерения</figcaption>
+            </figure></li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-15-selection-panel-tasks-creating.png"><img alt="Создание замечаний" src="../../../_images/plans-instrument-15-selection-panel-tasks-creating.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> — работа с замечаниями. При двойном нажатии появляется следующая панель работы с замечанием:</p>
+<figure class="">
+            <a 
+               data-lightbox="group-0ad6e0de-e67d-4e2e-bd3d-526895fc48b6"
+               href="../../../_images/plans-instrument-15-selection-panel-tasks1.png"
+               title="Рис. 11. Панель замечаний"
+               data-title="Рис. 11. Панель замечаний"
+               
+               ><img src="../../../_images/plans-instrument-15-selection-panel-tasks1.png"
+                     class=""
+                     width="40%"
+                     height="auto"
+                     alt="Работа со слоями"/>
+                </a><figcaption>Рис. 11. Панель замечаний</figcaption>
+            </figure><ul>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-15-selection-panel-tasks-creating.png"><img alt="Создание замечаний" src="../../../_images/plans-instrument-15-selection-panel-tasks-creating.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> — создает замечание.</p></li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-15-selection-panel-tasks-bim.png"><img alt="BIM" src="../../../_images/plans-instrument-15-selection-panel-tasks-bim.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> — доступна только при работе с BIM моделями. Позволяет создать замечание в BIM-модели.</p></li>
+<li><p><a class="reference internal" href="../../../_images/plans-instrument-15-selection-panel-tasks-button.png"><img alt="Работа с чертежами" src="../../../_images/plans-instrument-15-selection-panel-tasks-button.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> — кнопка клонирования замечаний. Позволяет копировать однотипные замечания.</p>
+<p>Подробнее в разделе <a class="reference internal" href="cloning-typical-tasks-on-plan.html"><span class="doc">Клонирование однотипных замечаний на чертеже</span></a>.</p>
+</li>
+</ul>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Примечание</p>
+<p>Все созданные замечания можно удалить прямо на чертеже, предварительно выделив их <a class="reference internal" href="../../../_images/plans-instrument-10-selection-panel-selection-button.png"><img alt="Выход из чертежа" src="../../../_images/plans-instrument-10-selection-panel-selection-button.png" style="width: 33.599999999999994px; height: 33.599999999999994px;" /></a> и нажав на кнопку
+«Удалить», если у вас есть на это права.</p>
+</div>
+</section>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="tasks-creating.html" title="назад страница">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">назад</p>
+            <p class="prev-next-title">Создание замечаний</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="general-plan.html" title="вперёд страница">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">вперёд</p>
+        <p class="prev-next-title">Генплан</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2022, ООО &#34;Мобильные решения для строительства&#34;.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.2.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

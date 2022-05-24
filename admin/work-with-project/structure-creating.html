@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Создание элементов структуры проекта &#8212; документация Пользовательская документация ПК &#34;СтройКонтроль&#34; </title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinxcontrib-images/LightBox2/lightbox2/dist/css/lightbox.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script src="../../_static/sphinxcontrib-images/LightBox2/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="../../_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Алфавитный указатель" href="../../genindex.html" />
+    <link rel="search" title="Поиск" href="../../search.html" />
+    <link rel="next" title="Перенос элементов структуры" href="structure-moving.html" />
+    <link rel="prev" title="Работа с проектом" href="../work-with-project.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="ru">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="../../index.html">
+  <img src="../../_static/logo.png" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../user.html">
+  Для пользователя
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="../../admin.html">
+  Для администратора
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../typical-instructions.html">
+  Типовые инструкции
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../video-instructions.html">
+  Видео-инструкции
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://apps.apple.com/ru/app/стройконтроль/id867522092" rel="noopener" target="_blank" title="AppStore">
+            <span><i class="fab fa-app-store"></i></span>
+            <label class="sr-only">AppStore</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.planstery.review&hl=ru" rel="noopener" target="_blank" title="PlayMarket">
+            <span><i class="fab fa-google-play"></i></span>
+            <label class="sr-only">PlayMarket</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://vk.com/m_r_s" rel="noopener" target="_blank" title="VK">
+            <span><i class="fab fa-vk"></i></span>
+            <label class="sr-only">VK</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Поиск по документации..." aria-label="Поиск по документации..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../installing-and-login.html">
+   Установка приложения и вход в систему
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../organization-setup.html">
+   Первоначальная настройка организации
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/admin-panel-view.html">
+     Общий вид панели администрирования
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/requirements-setup.html">
+     Настройка реквизитов
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/roles-setup.html">
+     Настройка ролей
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/employee-adding.html">
+     Добавление сотрудников
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/employee-rights-setup.html">
+     Настройка прав сотрудников организации
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/project-creating.html">
+     Создание проектов
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/partners-setup.html">
+     Настройка контрагентов
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/ref-book-setup.html">
+     Настройка справочника
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/activity-history.html">
+     История активности и действий пользователей
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/attention.html">
+     Оптимизация приложения в разделе «Обратить внимание»
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/recovery-mode.html">
+     Режим восстановления в панели администратора
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../organization-setup/settings.html">
+     Настройки в панели администрирования
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../work-with-project.html">
+   Работа с проектом
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Создание элементов структуры проекта
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="structure-moving.html">
+     Перенос элементов структуры
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="roles.html">
+     Добавление ответственных по ролям
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> На этой странице
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   Добавление новых объектов
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Ручной способ
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Импорт файла
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ms-project">
+       MS Project
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#xml">
+       XML
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section id="id1">
+<h1>Создание элементов структуры проекта<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Раздел <strong>Структура</strong> нужен для того, чтобы организовать и систематизировать замечания и документацию по проекту,
+а также разграничить доступ сотрудников к данным.</p>
+<section id="id2">
+<h2>Добавление новых объектов<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Есть два способа добавления новых объектов с неограниченной вложенностью:</p>
+<ul class="simple">
+<li><p>вручную,</p></li>
+<li><p>импорт заранее созданного файла.</p></li>
+</ul>
+<section id="id3">
+<h3>Ручной способ<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Чтобы создать структура вручную:</p>
+<ol class="arabic simple">
+<li><p>Войдите в проект.</p></li>
+<li><p>Нажмите на синюю кнопку «Добавить» напротив надписи «Список элементов».</p></li>
+<li><p>Появится окно ввода с надписью: «Добавить новый элемент структуры».</p></li>
+<li><p>Введите название работ и нажмите на кнопку «Применить» (Рис. 1).</p></li>
+</ol>
+<figure class="">
+            <a 
+               data-lightbox="group-15cbcb24-bcd8-485b-b830-06219f1cd0f6"
+               href="../../_images/structure-creating-1-manually1.png"
+               title="Рис. 1. Добавление элемента структуры вручную"
+               data-title="Рис. 1. Добавление элемента структуры вручную"
+               
+               ><img src="../../_images/structure-creating-1-manually1.png"
+                     class=""
+                     width="70%"
+                     height="auto"
+                     alt="Добавление элемента структуры вручную"/>
+                </a><figcaption>Рис. 1. Добавление элемента структуры вручную</figcaption>
+            </figure><p>После подтверждения ввода новый элемент структуры появится в списке видов работ.</p>
+<p>Для того чтобы создать новый элемент структуры внутри существующего:</p>
+<ol class="arabic simple">
+<li><p>Нажмите на нужный элемент структуры в списке. Произойдет переход «внутрь» элемент структуры, вы увидите название данного уровня в верхней панели.</p></li>
+<li><p>Нажмите на кнопку «Добавить» напротив надписи «Список элемент структуры». Появится окно ввода с надписью: «Добавить новый элемент структуры».</p></li>
+<li><p>Введите название элемент структуры и нажмите на кнопку «Применить» (Рис. 2).</p></li>
+</ol>
+<figure class="">
+            <a 
+               data-lightbox="group-6b2eda6f-9f02-4fe1-84fa-c7a8b00e53d5"
+               href="../../_images/structure-creating-2-manually-included-element1.png"
+               title="Рис. 2. Добавление объекта строительства внутри существующего объекта"
+               data-title="Рис. 2. Добавление объекта строительства внутри существующего объекта"
+               
+               ><img src="../../_images/structure-creating-2-manually-included-element1.png"
+                     class="align-center"
+                     width="100%"
+                     height="auto"
+                     alt="Добавление объекта строительства внутри существующего объекта"/>
+                </a><figcaption>Рис. 2. Добавление объекта строительства внутри существующего объекта</figcaption>
+            </figure></section>
+<section id="id4">
+<h3>Импорт файла<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Второй способ — добавить объекты с помощью файлов MS Project или XML.
+Для автоматического добавления элемента структуры из файла</p>
+<section id="ms-project">
+<h4>MS Project<a class="headerlink" href="#ms-project" title="Ссылка на этот заголовок">¶</a></h4>
+<ol class="arabic">
+<li><p>Нажмите на кнопку «Импорт» (Рис. 3).</p>
+<figure class="">
+            <a 
+               data-lightbox="group-e3a7b735-a52b-4a6e-83a8-1fd18bf35776"
+               href="../../_images/structure-creating-3-import-ms-project1.png"
+               title="Рис. 3. Создание работ через импорт файла"
+               data-title="Рис. 3. Создание работ через импорт файла"
+               
+               ><img src="../../_images/structure-creating-3-import-ms-project1.png"
+                     class="align-center"
+                     width="100%"
+                     height="auto"
+                     alt="Создание работ через импорт файла"/>
+                </a><figcaption>Рис. 3. Создание работ через импорт файла</figcaption>
+            </figure></li>
+<li><p>Выберите файл MS Project с графиком работ для загрузки.</p></li>
+<li><p>Все пункты элемента структуры со сроками перенесутся в проект со всеми уровнями вложенности.</p></li>
+</ol>
+</section>
+<section id="xml">
+<h4>XML<a class="headerlink" href="#xml" title="Ссылка на этот заголовок">¶</a></h4>
+<p>При импорте из формата XML перенесутся только элементы структуры в зависимости от иерархии, заданной в файле.
+XML файл можно создать из текстового файла, созданного в блокноте с сохранением его в расширении XML (Рис. 6).</p>
+<figure class="framed">
+            <a 
+               data-lightbox="group-61239730-de82-4b5c-a5f3-0705629966c8"
+               href="../../_images/structure-creating-4-import-xml1.gif"
+               title="Рис. 4. Сохранение файла XML"
+               data-title="Рис. 4. Сохранение файла XML"
+               
+               ><img src="../../_images/structure-creating-4-import-xml1.gif"
+                     class="align-center"
+                     width="100%"
+                     height="auto"
+                     alt="Сохранение файла XML"/>
+                </a><figcaption>Рис. 4. Сохранение файла XML</figcaption>
+            </figure><ol class="arabic">
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;template&gt;</span></code> — обязательный начальный тег, открывающий структуру,</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;/template&gt;</span></code> — обязательный закрывающий тег.
+Между парами тегов <code class="docutils literal notranslate"><span class="pre">&lt;template&gt;</span> <span class="pre">...</span> <span class="pre">&lt;/template&gt;</span></code> строятся элементы структуры.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;object</span> <span class="pre">name=&quot;Корпус</span> <span class="pre">1&quot;&gt;</span></code> — тег объявляющий элемент структуры названием “Корпус 1”, закрывается парным тегом <code class="docutils literal notranslate"><span class="pre">&lt;/object&gt;</span></code>.</p>
+<p>Если в тег <code class="docutils literal notranslate"><span class="pre">&lt;object&gt;</span></code> вложений не требуется, его можно сразу закрыть не ставя парный тег <code class="docutils literal notranslate"><span class="pre">&lt;/object&gt;</span></code>, например <code class="docutils literal notranslate"><span class="pre">&lt;object</span> <span class="pre">name=&quot;Подвал&quot;/&gt;</span></code>.</p>
+</li>
+</ol>
+<p><strong>Пример построения структуры с помощью тегов:</strong></p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;template&gt;</span>
+        <span class="nt">&lt;object</span> <span class="na">name=</span><span class="s">&quot;ЖК Ромашка&quot;</span><span class="nt">&gt;</span>
+                 <span class="nt">&lt;object</span> <span class="na">name=</span><span class="s">&quot;Корпус 1&quot;</span><span class="nt">&gt;</span>
+                 <span class="nt">&lt;object</span> <span class="na">name=</span><span class="s">&quot;Секция 1&quot;</span><span class="nt">&gt;</span>
+                        <span class="nt">&lt;object</span> <span class="na">name=</span><span class="s">&quot;Подвал&quot;</span><span class="nt">/&gt;</span>
+                        <span class="nt">&lt;object</span> <span class="na">name=</span><span class="s">&quot;Этаж 1&quot;</span><span class="nt">/&gt;</span>
+                        <span class="nt">&lt;object</span> <span class="na">name=</span><span class="s">&quot;Этаж 2&quot;</span><span class="nt">/&gt;</span>
+                        <span class="nt">&lt;object</span> <span class="na">name=</span><span class="s">&quot;Этаж 3&quot;</span><span class="nt">/&gt;</span>
+                        <span class="nt">&lt;object</span> <span class="na">name=</span><span class="s">&quot;Технический этаж&quot;</span><span class="nt">/&gt;</span>
+                        <span class="nt">&lt;object</span> <span class="na">name=</span><span class="s">&quot;Кровля&quot;</span><span class="nt">/&gt;</span>
+                 <span class="nt">&lt;/object&gt;</span>
+                 <span class="nt">&lt;/object&gt;</span>
+        <span class="nt">&lt;/object&gt;</span>
+<span class="nt">&lt;/template&gt;</span>
+</pre></div>
+</div>
+<p>Элементы структуры располагаются в списке в соответствии с датой начала работ или в соответствии с присвоенным номером, буквой.
+Находясь на конкретном уровне элемента структуры, вы можете:</p>
+<ul class="simple">
+<li><p>загрузить всю необходимую для работы на объекте документацию (чертежи, проектную документацию и т.д.) в раздел «Документация»;</p></li>
+<li><p>создать замечания в разделе «Замечания»;</p></li>
+<li><p>назначить участников на данный элемент структуры в разделе «Участники»;</p></li>
+<li><p>ознакомиться с аналитикой по ходу выполнения работ в разделе «Аналитика»;</p></li>
+<li><p>настроить сроки выполнения (дату начала, дату окончания) и другие в разделе «Настройки» (при добавлении элемента структуры вручную).</p></li>
+</ul>
+<div class="admonition attention">
+<p class="admonition-title">Внимание</p>
+<p>Данные настройки необходимо произвести для каждого элемента структуры и для всего проекта в целом.</p>
+</div>
+</section>
+</section>
+</section>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="../work-with-project.html" title="назад страница">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">назад</p>
+            <p class="prev-next-title">Работа с проектом</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="structure-moving.html" title="вперёд страница">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">вперёд</p>
+        <p class="prev-next-title">Перенос элементов структуры</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2022, ООО &#34;Мобильные решения для строительства&#34;.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.2.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>
