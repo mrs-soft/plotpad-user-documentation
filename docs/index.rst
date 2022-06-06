@@ -65,6 +65,7 @@
 *   :doc:`admin/installing-and-login`
 *   :doc:`admin/organization-setup`
 *   :doc:`admin/work-with-project`
+*   :doc:`admin/settings`
 
 ..  note:: Для администраторов приложения "СтройКонтроль" мы рекомендуем начать ознакомление с раздела :doc:`/user`.
 

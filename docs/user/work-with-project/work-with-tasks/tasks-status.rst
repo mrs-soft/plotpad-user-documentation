@@ -68,7 +68,7 @@
 
 ..  thumbnail:: images/tasks-status/tasks-status-3-tasks-filtration.png
     :alt: Открытые замечания
-    :align: center
+    :width: 60%
     :title: Рис. 3. Фильтрация замечаний
     :show_caption: True
 
