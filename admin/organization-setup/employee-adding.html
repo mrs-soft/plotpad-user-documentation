@@ -153,7 +153,7 @@
     <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../installing-and-login.html">
-   Установка приложения и вход в систему
+   Вход в систему администратора
   </a>
  </li>
  <li class="toctree-l1 current active has-children">
@@ -255,6 +255,11 @@
    </li>
   </ul>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../settings.html">
+   Удаление и восстановление данных
+  </a>
+ </li>
 </ul>
 
   </div>
@@ -321,7 +326,7 @@
 <p>Сотрудников организации добавляем в разделе <strong>Сотрудники</strong> (Рис. 1).</p>
 <figure class="">
             <a 
-               data-lightbox="group-f4c1926e-bd44-4471-a098-3cdbc95214df"
+               data-lightbox="group-0d578544-68de-49fe-88fa-9c461b66f99d"
                href="../../_images/employee-adding-1-overview1.png"
                title="Рис. 1. Раздел «Сотрудники»"
                data-title="Рис. 1. Раздел «Сотрудники»"
@@ -343,7 +348,7 @@
 Далее появится окно ввода данных о новом сотруднике. Заполните все поля. В завершении нажмите кнопку <strong>Добавить</strong> (рис. 2).</p>
 <figure class="">
             <a 
-               data-lightbox="group-aa41f82a-3025-469f-9ed6-bbde45877937"
+               data-lightbox="group-c3d0c9d0-baad-488d-8a73-9aad3406c0b6"
                href="../../_images/employee-adding-2-employee-menu1.png"
                title="Рис. 2. Добавление нового сотрудника через интерфейс приложения"
                data-title="Рис. 2. Добавление нового сотрудника через интерфейс приложения"
@@ -372,7 +377,7 @@
 <p style="text-align:center;">Почта<b>Tab</b>Фамилия<b>Пробел</b>Имя<b>Пробел</b>Отчество<b>Tab</b>Пароль<b>Tab</b>Телефон</p><hr class="docutils" />
 <figure class="">
             <a 
-               data-lightbox="group-a2d1eb39-1d27-4046-8e50-0cba0577d0ba"
+               data-lightbox="group-605d2d16-14f8-4eb5-b4b4-2f57483df1a3"
                href="../../_images/employee-adding-3-txt-example1.png"
                title="Рис. 3. Пример содержимого файла для двух пользователей"
                data-title="Рис. 3. Пример содержимого файла для двух пользователей"
@@ -390,10 +395,28 @@
 <li><p>Пароль.</p></li>
 <li><p>Телефон.</p></li>
 </ol>
+<div class="admonition attention">
+<p class="admonition-title">Внимание</p>
+<p><strong>Требования к паролям:</strong></p>
+<ol class="arabic simple">
+<li><p>Неповторимость паролей. Хранение 24 вариантов старых паролей пользователя, с запретом задавать такой же новый.</p></li>
+<li><p>Минимальная длина пароля 8 символов.</p></li>
+<li><p>Пароль не должен содержать значение имени учетной записи пользователя: почту или ФИО пользователя.
+Например, если ФИО пользователя = Филипченко Антон Сергеевич, а желаемый пароль QW12Антон, то создать его нельзя.</p></li>
+<li><p>Пароль должен содержать символы из всех четырех следующих категорий:</p>
+<ul class="simple">
+<li><p>заглавные буквы латинского алфавита,</p></li>
+<li><p>строчные буквы латинского алфавита,</p></li>
+<li><p>основные 10 цифр (0-9),</p></li>
+<li><p>специальные символы (например,!, $, #, %).</p></li>
+</ul>
+</li>
+</ol>
+</div>
 <p>Далее нажмите на кнопку <strong>Импорт сотрудников</strong>, выберите необходимый файл и нажмите на кнопку <strong>Открыть</strong> (Рис. 4).</p>
 <figure class="">
             <a 
-               data-lightbox="group-ed8b6d19-b991-47b8-937c-4368caad33c4"
+               data-lightbox="group-68ac2ba6-5228-4f46-bc72-51ac07491345"
                href="../../_images/employee-adding-6-txt-employee-adding1.gif"
                title="Рис. 4. Добавление сотрудников через импорт текстового файла"
                data-title="Рис. 4. Добавление сотрудников через импорт текстового файла"
@@ -430,7 +453,7 @@
 Для выгрузки списка нажмите «Экспорт данных» (Рис.5).</p>
 <figure class="">
             <a 
-               data-lightbox="group-982ab6e0-eb42-417b-b73a-d36ff6b9d6aa"
+               data-lightbox="group-e4166e51-42ab-4f16-aaf5-a539b9f1602a"
                href="../../_images/employee-adding-7-employee-exporting1.gif"
                title="Рис. 5. Выгрузка списка сотрудников"
                data-title="Рис. 5. Выгрузка списка сотрудников"
@@ -449,7 +472,7 @@
 <p>Для импорта в Excel перейдите в меню «Данные» — «Получить данные» — «Из файла» — «Из текстового/CSV-файла» (Рис.6).</p>
 <figure class="">
             <a 
-               data-lightbox="group-663fd7e0-96af-427d-bcc0-002d556e6e2f"
+               data-lightbox="group-3e1143d9-0db4-418e-83f1-2b5ff507a0fe"
                href="../../_images/employee-adding-9-exporting-excel-importing1.png"
                title="Рис. 6. Меню "Данные" в Excel"
                data-title="Рис. 6. Меню "Данные" в Excel"
@@ -463,7 +486,7 @@
             </figure><p>Найдите файл, который вы выгрузили и нажмите «Импорт» (Рис.7).</p>
 <figure class="">
             <a 
-               data-lightbox="group-2695b3ea-e321-459f-91d0-224762a5cd05"
+               data-lightbox="group-0df1f0c5-db0f-4d65-bf88-b91a2c843c89"
                href="../../_images/employee-adding-10-exporting-excel-importing-from-pc1.png"
                title="Рис. 7. Поиск CSV файл на компьютере"
                data-title="Рис. 7. Поиск CSV файл на компьютере"
@@ -489,7 +512,7 @@
 </ol>
 <figure class="">
             <a 
-               data-lightbox="group-43b2d23a-56e4-404d-a503-0a42937b0575"
+               data-lightbox="group-fe9d77d1-27d1-4559-8b25-bbf5a429aba4"
                href="../../_images/employee-adding-11-exporting-excel-set-up1.png"
                title="Рис. 8 Настройка мастера импорта"
                data-title="Рис. 8 Настройка мастера импорта"
@@ -507,7 +530,7 @@
 Для этого нажмите на кнопку «Архивировать» (Рис. 9).</p>
 <figure class="">
             <a 
-               data-lightbox="group-784ba1fc-2fef-4df4-b9a9-0d9bcef2da78"
+               data-lightbox="group-9062ae1a-c772-48a6-bbd0-67bd2df3b644"
                href="../../_images/employee-adding-12-deleting1.png"
                title="Рис. 10. Удаление сотрудника"
                data-title="Рис. 10. Удаление сотрудника"
@@ -524,7 +547,7 @@
 При этом его данные останутся в программе, и сохранится возможность формирования статистики по нему (Рис. 11).</p>
 <figure class="">
             <a 
-               data-lightbox="group-e034de2f-4423-4f0e-8767-aab5ef213baf"
+               data-lightbox="group-5642994c-5b2c-4cc3-a046-bd37bb959008"
                href="../../_images/employee-adding-13-deleted1.png"
                title="Рис. 11. Удаленный сотрудник"
                data-title="Рис. 11. Удаленный сотрудник"
