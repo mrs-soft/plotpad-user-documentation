@@ -86,6 +86,10 @@ html_theme_options = {
 
      "search_bar_text": "Поиск по документации...",
 
+     "external_links": [
+      {"name": "СтройКонтроль API ", "url": "_static/swagger-ui-plotpad/index.html"}
+    ]
+
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
