@@ -115,11 +115,11 @@
 Вкладка "Главная"
 +++++++++++++++++
 
-#.  **Архивировать**. Кнопка позволяет удалить замечание.
+#.  **Архивировать** |Archive-Button|. Кнопка позволяет удалить замечание.
 #.  **Важное** |Important-Button|. Кнопка присваивает замечанию статус важное и поднимает замечание в реестре замечаний наверх.
-#.  **Избранное**. Кнопка добавляет замечание в список избранных.
-#.  **Сформировать документ**. Сформировать документ (предписание, акт, отчёт) по данным из карточки замечания.
-#.  **Закрыть**. Закрывает карточку замечания.
+#.  **Избранное** |Favorites-Button|. Кнопка добавляет замечание в список избранных.
+#.  **Сформировать документ** |Form-Button|. Сформировать документ (предписание, акт, отчёт) по данным из карточки замечания.
+#.  **Закрыть** |Close-Button|. Закрывает карточку замечания.
 #.  **Состояние**. Доступно три статуса замечания: открыт, выполнен, проверен. Статус меняют по ходу устранения замечания:
     
     #.  Статус **«Открыто»** присваивает автор замечания, например, сотрудник строительного контроля, данный статус присваивается автоматически при создании замечания.
@@ -251,12 +251,12 @@
 
     #.  Откройте чертеж, нажмите на красную кнопку в правой рабочей области экрана |Creating-Task-On-Plan-Button| (Рис. 9).
 
-        ..  thumbnail:: images/tasks-creating/tasks-creating-26-creating-task-on-plan.gif
-            :alt: Замечание на чертеже
-            :align: center
-            :class: framed
-            :title: Рис. 9. Создание замечания на чертеже
-            :show_caption: True
+    ..  thumbnail:: images/tasks-creating/tasks-creating-26-creating-task-on-plan.gif
+        :alt: Замечание на чертеже
+        :align: center
+        :class: framed
+        :title: Рис. 9. Создание замечания на чертеже
+        :show_caption: True
 
 ..  only:: latex
 
@@ -358,7 +358,7 @@
 
 ..  |Important-Button| image:: images/tasks-creating/tasks-creating-24-important-button.png
             :alt: Важное
-            :scale: 80%
+            :scale: 30%
 
 ..  |Creating-Task-On-Plan-Button| image:: images/tasks-creating/tasks-creating-25-creating-task-on-plan-button.png
             :alt: Замечание на чертеже
@@ -375,3 +375,19 @@
 ..  |Next-Button| image:: images/tasks-creating/tasks-creating-30-next-button.png
             :alt: "Далее"
             :scale: 60%
+
+..  |Archive-Button| image:: images/tasks-creating/tasks-creating-31-archive-button.png
+            :alt: "Архивировать"
+            :scale: 30%       
+
+..  |Close-Button| image:: images/tasks-creating/tasks-creating-32-close-button.png
+            :alt: "Закрыть"
+            :scale: 100%
+
+..  |Favorites-Button| image:: images/tasks-creating/tasks-creating-33-favorites-button.png
+            :alt: "Закрыть"
+            :scale: 30%
+
+..  |Form-Button| image:: images/tasks-creating/tasks-creating-34-form-button.png
+            :alt: "Закрыть"
+            :scale: 30%    
