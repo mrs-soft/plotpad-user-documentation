@@ -1,13 +1,7 @@
-/*:root {
-    --pst-color-primary: green;
-     border: 2px blue;
-  }
-.uno img{color: blue;}*/
-.framed img{border:2px solid rgb(184, 180, 180);
+.framed img{
+border:2px solid rgb(184, 180, 180);
 border-radius: 5px;
 }
-/*.framed img{ border: 2px blue;}*/
-
-/*:root {
+:root {
     --pst-color-primary: 51, 51, 51;
-  }*/
+  }
