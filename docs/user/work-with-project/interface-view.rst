@@ -26,6 +26,7 @@
 
 ..  thumbnail:: images/interface-view-3-menu.gif
     :alt: Меню
+    :class: framed
     :align: center
     :title: Рис. 2. Основное меню
     :show_caption: True
