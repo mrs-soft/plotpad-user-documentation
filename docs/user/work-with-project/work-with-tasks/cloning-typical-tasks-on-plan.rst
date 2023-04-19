@@ -22,6 +22,7 @@
     ..  thumbnail:: images/cloning-typical-tasks-on-plan/cloning-typical-tasks-on-plan-1.gif
         :alt: Клонирование
         :align: center
+        :class: framed
         :title: Рис. 1. Клонирование замечаний
         :show_caption: True
 

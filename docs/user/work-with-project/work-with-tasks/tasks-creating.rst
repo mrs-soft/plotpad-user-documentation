@@ -302,58 +302,72 @@
 
 ..  |Drawing-Annotation-Button| image:: images/tasks-creating/tasks-creating-3-drawing-annotation-button.png
             :alt: Перемещение
+            :class: framed
             :scale: 100%
 
 ..  |Moving-Button| image:: images/tasks-creating/tasks-creating-6-moving-button.png
             :alt: Перемещение
+            :class: framed
             :scale: 100%
 
 ..  |Text-Button| image:: images/tasks-creating/tasks-creating-7-text-button.png
             :alt: Текст
+            :class: framed
             :scale: 100%
 
 ..  |Line-Button| image:: images/tasks-creating/tasks-creating-8-line-button.png
-            :alt: Линия 
+            :alt: Линия
+            :class: framed
             :scale: 100%
             
 ..  |Straight-Line-Button| image:: images/tasks-creating/tasks-creating-9-straight-line-button.png
             :alt: Прямая линия
+            :class: framed
             :scale: 100%
 
 ..  |Rectangle-Button| image:: images/tasks-creating/tasks-creating-10-rectangle-button.png
             :alt: Прямоугольник
+            :class: framed
             :scale: 100%
             
 ..  |Circle-Button| image:: images/tasks-creating/tasks-creating-11-circle-button.png
             :alt: Круг
+            :class: framed
             :scale: 100%
             
 ..  |Arrow-Button| image:: images/tasks-creating/tasks-creating-12-arrow-button.png
             :alt: Стрелка
+            :class: framed
             :scale: 100%
             
 ..  |Color-Button| image:: images/tasks-creating/tasks-creating-13-color-button.png
             :alt: Цвет
+            :class: framed
             :scale: 100%
             
 ..  |Line-Width-Button| image:: images/tasks-creating/tasks-creating-14-line-width-button.png
             :alt: Ширина линии
+            :class: framed
             :scale: 100%
             
 ..  |Undo-Button| image:: images/tasks-creating/tasks-creating-15-undo-button.png
             :alt: Отменить последнее действие
+            :class: framed
             :scale: 100%
             
 ..  |Redo-Button| image:: images/tasks-creating/tasks-creating-16-redo-button.png
             :alt: Отменить отмену последнего действия
+            :class: framed
             :scale: 100%
             
 ..  |Accept-Button| image:: images/tasks-creating/tasks-creating-17-accept-button.png
             :alt: Принять
+            :class: framed
             :scale: 100%
 
 ..  |Typical-Tasks-Button| image:: images/tasks-creating/tasks-creating-20-typical-tasks-button.png
             :alt: Нормативный документ
+            :class: framed
             :scale: 80%
 
 ..  |Important-Button| image:: images/tasks-creating/tasks-creating-24-important-button.png
@@ -362,18 +376,22 @@
 
 ..  |Creating-Task-On-Plan-Button| image:: images/tasks-creating/tasks-creating-25-creating-task-on-plan-button.png
             :alt: Замечание на чертеже
+            :class: framed
             :scale: 80%
 
 ..  |Task-Marker| image:: images/tasks-creating/tasks-creating-27-task-marker.png
             :alt: Маркер замечания
+            :class: framed
             :scale: 100%
 
 ..  |Full-Form-Button| image:: images/tasks-creating/tasks-creating-29-full-form-button.png
             :alt: Полная карточка замечаний
+            :class: framed
             :scale: 100%
 
 ..  |Next-Button| image:: images/tasks-creating/tasks-creating-30-next-button.png
             :alt: "Далее"
+            :class: framed
             :scale: 60%
 
 ..  |Archive-Button| image:: images/tasks-creating/tasks-creating-31-archive-button.png
@@ -385,9 +403,9 @@
             :scale: 100%
 
 ..  |Favorites-Button| image:: images/tasks-creating/tasks-creating-33-favorites-button.png
-            :alt: "Закрыть"
+            :alt: "Избранное"
             :scale: 30%
 
 ..  |Form-Button| image:: images/tasks-creating/tasks-creating-34-form-button.png
-            :alt: "Закрыть"
+            :alt: "Важное"
             :scale: 30%    

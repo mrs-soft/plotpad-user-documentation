@@ -7,6 +7,7 @@
 ..  thumbnail:: images/settings-1-in-main-menu.gif
     :alt: Поиск документа
     :align: center
+    :class: framed
     :title: Рис. 1. Раздел «Настройки» в главном меню
     :show_caption: True
 
@@ -16,6 +17,7 @@
 ..  thumbnail:: images/settings-2-overview.png
     :alt: Поиск документа
     :align: center
+    :class: framed
     :title: Рис. 2. Раздел «Настройки»
     :show_caption: True
 

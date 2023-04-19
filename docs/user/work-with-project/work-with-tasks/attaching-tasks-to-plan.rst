@@ -17,6 +17,7 @@
         ..  thumbnail:: images/attaching-tasks-to-plan/attaching-tasks-to-plan-1-attaching.gif
             :alt: Прикрепление замечания к чертежу
             :align: center
+            :class: framed
             :title: Рис. 1. Прикрепление замечания к чертежу
             :show_caption: True
 
@@ -38,6 +39,7 @@
 
         ..  figure:: images/attaching-tasks-to-plan/attaching-tasks-to-plan-2-choose-your-plan.png
             :alt: Прикрепление замечания к чертежу
+            :class: framed
             :align: center
 
             Рис. 2. Выбор чертежа.

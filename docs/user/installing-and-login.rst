@@ -62,6 +62,7 @@
 ..  thumbnail:: ./images/installing-and-login-0-zero-screen.png
     :alt: Первый экран
     :width: 60%
+    :class: framed
     :title: Рис. 1. Поле для URL
     :show_caption: True
 
@@ -70,6 +71,8 @@
 ..  thumbnail:: ./images/installing-and-login-1-first-screen.gif
     :alt: Первый экран
     :align: center
+    :class: framed
+
     :title: Рис. 2. Вход в приложения
     :show_caption: True
 
@@ -78,6 +81,8 @@
 ..  thumbnail:: ./images/installing-and-login-4-interface.png
     :alt: Первый экран
     :align: center
+    :class: framed
+
     :title: Рис. 3. Главная страница
     :show_caption: True
 

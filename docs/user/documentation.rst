@@ -8,6 +8,7 @@
     ..  thumbnail:: images/documentation-1-in-main-menu.gif
         :alt: Документооборот в главном меню
         :align: center
+        :class: framed
         :title: Рис. 1. Раздел «Документооборот» в главном меню
         :show_caption: True
         
@@ -24,6 +25,7 @@
 ..  thumbnail:: images/documentation-2-overview.png
     :alt: Общий вид раздела "Документооборот"
     :align: center
+    :class: framed
     :title: Рис. 2. Общий вид раздела «Документооборот»
     :show_caption: True
 
@@ -37,6 +39,7 @@
         ..  thumbnail:: images/documentation-3-searching.gif
             :alt: Поиск документа
             :align: center
+            :class: framed
             :title: Рис. 3. Поиск документа
             :show_caption: True
 
@@ -55,6 +58,7 @@
         ..  thumbnail:: images/documentation-4-doc-interactions.gif
             :alt: Действия с документами
             :align: center
+            :class: framed
             :title: Рис. 4. Действия с документами
             :show_caption: True
 
@@ -80,6 +84,7 @@
         ..  thumbnail:: images/documentation-5-multiple-doc-choose.gif
             :alt: Выбор нескольких документов
             :align: center
+            :class: framed
             :title: Рис. 5. Выбор нескольких документов
             :show_caption: True
 
@@ -99,6 +104,7 @@
         ..  thumbnail:: images/documentation-6-filtration.gif
             :alt: Фильтр по дате создания
             :align: center
+            :class: framed
             :title: Рис. 6. Фильтрация документации
             :show_caption: True
 

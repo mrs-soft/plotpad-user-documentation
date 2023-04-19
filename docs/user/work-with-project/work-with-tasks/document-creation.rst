@@ -26,6 +26,7 @@
     ..  thumbnail:: images/document-creation/document-creation-1-document-creating.gif
         :alt: Формирование документа
         :align: center
+        :class: framed
         :title: Рис. 1. Формирование документа
         :show_caption: True
 
@@ -42,6 +43,7 @@
 ..  thumbnail:: images/document-creation/document-creation-2-doc-types.png
     :alt: Формирование документа
     :width: 60%
+    :class: framed
     :title: Рис. 2. Типы документов
     :show_caption: True
 
@@ -50,6 +52,7 @@
 ..  thumbnail:: images/document-creation/document-creation-3-report.png
     :alt: Формирование документа
     :width: 60%
+    :class: framed
     :title: Рис. 3. Формирование отчёта
     :show_caption: True
 
@@ -84,6 +87,7 @@
     ..  thumbnail:: images/document-creation/document-creation-4-single-order.gif
         :alt: Формирование единичного предписания
         :align: center
+        :class: framed
         :title: Рис. 4. Создание предписание по одному замечанию
         :show_caption: True
 
@@ -107,6 +111,7 @@
     ..  thumbnail:: images/document-creation/document-creation-5-mass-order.gif
         :alt: Формирование предписаний по нескольким замечаниям
         :align: center
+        :class: framed
         :title: Рис. 5. Формирование предписаний по нескольким замечаниям
         :show_caption: True
 
@@ -151,6 +156,7 @@
     ..  thumbnail:: images/document-creation/document-creation-6-completion-certificate.gif
         :alt: Формирование акта
         :align: center
+        :class: framed
         :title: Рис. 6. Создание акта по замечанию
         :show_caption: True
 

@@ -8,7 +8,8 @@
 
     ..  thumbnail:: images/help-1-in-main-menu.gif
         :alt: Раздел "Помощь"
-        :align: center    
+        :align: center
+        :class: framed   
         :title: Рис. 1.  Раздел «Помощь» в главном меню
         :show_caption: True
 
@@ -26,5 +27,6 @@
 ..  thumbnail:: images/help-2-overview.png
     :alt: Раздел "Помощь"
     :align: center
+    :class: framed
     :title: Рис. 2.  Раздел "Помощь"
     :show_caption: True
