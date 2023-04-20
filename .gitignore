@@ -4,3 +4,4 @@ build/
 latex/
 .vscode/
 *.log
+.idea/
