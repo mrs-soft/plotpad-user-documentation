@@ -20,6 +20,7 @@
     ..  thumbnail:: images/general-plan/general-plan-1-creating.gif
         :alt: Создание генплана
         :align: center
+        :class: framed
         :title: Рис. 1. Создание генплана
         :show_caption: True
 
@@ -35,6 +36,7 @@
 
     ..  figure:: images/general-plan/general-plan-1-2-creating.png
         :alt: Создание генплана
+        :class: framed
         :align: center
 
         Рис. 1.2. Создание генплана
@@ -43,6 +45,7 @@
 
     ..  figure:: images/general-plan/general-plan-1-2-creating.png
         :alt: Создание генплана
+        :class: framed
         :align: center
 
         Рис. 1.3. Создание генплана
@@ -51,6 +54,7 @@
 
     ..  figure:: images/general-plan/general-plan-1-2-creating.png
         :alt: Создание генплана
+        :class: framed
         :align: center
 
         Рис. 1.4. Создание генплана
@@ -64,6 +68,7 @@
 ..  thumbnail:: images/general-plan/general-plan-2-working.png
     :alt: Создание генплана
     :align: center
+    :class: framed
     :title: Рис. 2. Работа с генпланом
     :show_caption: True
 

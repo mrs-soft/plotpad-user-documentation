@@ -24,6 +24,7 @@
 ..  thumbnail:: images/project-documentation-2-adding-documentation.gif
     :alt: Добавить документацию
     :align: center
+    :class: framed
     :title: Рис. 1. Добавление документации к уровню структуры «Испанские кварталы»
     :show_caption: True
 
@@ -64,6 +65,7 @@
 ..  thumbnail:: images/project-documentation-4-creating-folder.gif
     :alt: Создать папку
     :align: center
+    :class: framed
     :title: Рис. 2. Создание папки для документации
     :show_caption: True
 
@@ -76,6 +78,7 @@
 ..  thumbnail:: images/project-documentation-6-rename-archive-folder.gif
     :alt: Клонирование документации
     :align: center
+    :class: framed
     :title: Рис. 3. Редактирование папок
     :show_caption: True
 
@@ -108,6 +111,7 @@
 ..  thumbnail:: images/project-documentation-7-cloning-documentation.gif
     :alt: Клонирование документации
     :align: center
+    :class: framed
     :title: Рис. 4. Клонирование документов
     :show_caption: True
 
@@ -126,6 +130,7 @@
 ..  thumbnail:: images/project-documentation-8-document-editing.gif
     :alt: Редактирование документации
     :align: center
+    :class: framed
     :title: Рис. 5. Редактирование документов
     :show_caption: True
 
@@ -139,6 +144,7 @@
 ..  thumbnail:: images/project-documentation-9-document-searching.gif
     :alt: Поиск документации
     :align: center
+    :class: framed
     :title: Рис. 6. Поиск среди документов
     :show_caption: True
 
@@ -156,6 +162,7 @@
 ..  thumbnail:: images/project-documentation-10-mobile-all-documents.jpg
     :alt: Кэш в мобильном приложении
     :width: 40%
+    :class: framed
     :title: Рис. 7. Все документы
     :show_caption: True
 
@@ -169,12 +176,14 @@
 ..  thumbnail:: images/project-documentation-11-mobile-cash-choose-all.gif
     :alt: Кэш в мобильном приложении
     :width: 40%
+    :class: framed
     :title: Рис. 8. Выбрать все
     :show_caption: True
 
 ..  thumbnail:: images/project-documentation-12-mobile-cash-downloading.gif
     :alt: Кэш в мобильном приложении
     :width: 40%
+    :class: framed
     :title: Рис. 9. Загрузка выбранных документов в кэш
     :show_caption: True
 
@@ -189,6 +198,7 @@
 ..  thumbnail:: images/project-documentation-14-mobile-cash-downloaded.jpg
     :alt: Кэш в мобильном приложении
     :width: 40%
+    :class: framed
     :title: Рис. 10. Загруженные документы
     :show_caption: True
 
@@ -201,6 +211,7 @@
 ..  thumbnail:: images/project-documentation-16-mobile-cash-not-downloaded.jpg
     :alt: Кэш в мобильном приложении
     :width: 40%
+    :class: framed
     :title: Рис. 11. Незагруженные документы
     :show_caption: True
 
@@ -223,6 +234,7 @@
 ..  thumbnail:: images/project-documentation-17-application.gif
     :alt: Раздел «Приложения»
     :align: center
+    :class: framed
     :title: Рис. 12. Раздел «Приложения»
     :show_caption: True
 
@@ -239,6 +251,7 @@
 ..  thumbnail:: images/project-documentation-18-application-sort.png
     :alt: Фильтрация приложений
     :width: 60%
+    :class: framed
     :title: Рис. 13. Фильтрация приложений
     :show_caption: True
 
@@ -262,6 +275,7 @@
     ..  thumbnail:: images/project-documentation-22-deleting-multiple-applications.gif
         :alt: Поиск документации
         :align: center
+        :class: framed
         :title: Рис. 14. Удаление отфильтрованных приложений
         :show_caption: True
 
@@ -283,5 +297,6 @@
     ..  thumbnail:: images/project-documentation-23-deleting-one-application.gif
         :alt: Поиск документации
         :align: center
+        :class: framed
         :title: Рис. 15. Удаление конкретного приложения
         :show_caption: True

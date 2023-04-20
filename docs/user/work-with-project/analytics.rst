@@ -7,6 +7,7 @@
 ..  thumbnail:: images/analytics-1-overview.png
     :alt: Раздел "Аналитика"
     :align: center
+    :class: framed
     :title: Рис. 1. Раздел "Аналитика"
     :show_caption: True
 
@@ -24,6 +25,7 @@
         ..  thumbnail:: images/analytics-2-time-range.gif
             :alt: Временной диапазон
             :align: center
+            :class: framed
             :title: Рис. 2. Выбор временного диапазона
             :show_caption: True
 
@@ -44,6 +46,7 @@
     ..  thumbnail:: images/analytics-3-archive.png
         :alt: Временной диапазон
         :width: 80%
+        :class: framed
         :title: Рис. 3. Включение в аналитику архивированных замечаний
         :show_caption: True
 
@@ -66,6 +69,7 @@
 ..  thumbnail:: images/analytics-6-graphs-choose.png
     :alt: Выбор графиков
     :width: 50%
+    :class: framed
     :title: Рис. 4. Меню выбора графиков
     :show_caption: True
 
@@ -77,6 +81,7 @@
     ..  thumbnail:: images/analytics-7-graphs-tasks-dynamic.png
         :alt: График
         :align: center
+        :class: framed
         :title: Рис. 5. Динамика замечаний по состояниям
         :show_caption: True
         :group: Graphs
@@ -87,6 +92,7 @@
     ..  thumbnail:: images/analytics-8-graphs-authors.png
         :alt: График
         :align: center
+        :class: framed
         :title: Рис. 6. Рейтинг авторов по состояниям замечаний
         :show_caption: True
         :group: Graphs
@@ -97,6 +103,7 @@
     ..  thumbnail:: images/analytics-9-graphs-executors.png
         :alt: График
         :align: center
+        :class: framed
         :title: Рис. 7. Рейтинг исполнителей по состояниям замечаний
         :show_caption: True
         :group: Graphs
@@ -107,6 +114,7 @@
     ..  thumbnail:: images/analytics-10-graphs-categories.png
         :alt: График
         :align: center
+        :class: framed
         :title: Рис. 8. Рейтинг категорий по состояниям замечаний
         :show_caption: True
         :group: Graphs
@@ -117,6 +125,7 @@
     ..  thumbnail:: images/analytics-11-graphs-org-authors.png
         :alt: График
         :align: center
+        :class: framed
         :title: Рис. 9. Рейтинг организаций авторов по состояниям замечаний
         :show_caption: True
         :group: Graphs
@@ -127,6 +136,7 @@
     ..  thumbnail:: images/analytics-12-graphs-org-executors.png
         :alt: График
         :align: center
+        :class: framed
         :title: Рис. 10. Рейтинг организаций авторов по состояниям замечаний
         :show_caption: True
         :group: Graphs
@@ -137,6 +147,7 @@
     ..  thumbnail:: images/analytics-13-graphs-tasks-summary.png
         :alt: График
         :align: center
+        :class: framed
         :title: Рис. 11. Сводный график по количеству замечаний
         :show_caption: True
         :group: Graphs

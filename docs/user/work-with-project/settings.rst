@@ -19,6 +19,7 @@
 ..  thumbnail:: images/settings-1-overview.png
     :alt: График
     :align: center
+    :class: framed
     :title: Рис. 1. Раздел «Настройки»
     :show_caption: True
 

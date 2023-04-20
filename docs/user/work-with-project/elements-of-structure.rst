@@ -13,6 +13,7 @@
 ..  thumbnail:: images/elements-of-structure-1-sub-levels.png
     :alt: Подуровни
     :align: center
+    :class: framed
     :title: Рис. 1. «Подуровни» структуры
     :show_caption: True
 
@@ -22,6 +23,7 @@
 ..  thumbnail:: images/elements-of-structure-2-sub-levels.png
     :alt: Подуровни
     :align: center
+    :class: framed
     :title: Рис. 2. «Подуровни» структуры
     :show_caption: True
 
@@ -30,6 +32,7 @@
 
 ..  thumbnail:: images/elements-of-structure-3-bread-crumbs.png
     :alt: Хлебные крошки
+    :class: framed
     :align: center
     :title: Рис. 3. Путь местонахождения в разделе
     :show_caption: True
@@ -37,6 +40,7 @@
 ..  thumbnail:: images/elements-of-structure-4-bread-crumbs-in-tasks.png
     :alt: Хлебные крошки в замечаниях
     :align: center
+    :class: framed
     :title: Рис. 4. Путь доступа к элементу внутри замечания
     :show_caption: True
 

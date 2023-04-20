@@ -6,6 +6,7 @@
 ..  thumbnail:: images/interface-view-1-projects.png
     :alt: Проекты
     :align: center
+    :class: framed
     :title: Рис. 1. Раздел «Проекты»
     :show_caption: True
 

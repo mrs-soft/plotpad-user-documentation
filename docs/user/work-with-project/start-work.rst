@@ -7,6 +7,7 @@
 ..  thumbnail:: images/start-work-1-projects.gif
     :alt: Проекты
     :align: center
+    :class: framed
     :title: Рис. 1. Вход в раздел «Проекты» в интерфейсе пользователя
     :show_caption: True
 
@@ -23,6 +24,7 @@
 ..  thumbnail:: images/start-work-3-favorite.gif
     :alt: Избранное
     :align: center
+    :class: framed
     :title: Рис. 3. Добавление проекта в раздел «Избранное»
     :show_caption: True
 
@@ -40,6 +42,7 @@
 ..  thumbnail:: images/start-work-4-sections-of-work.png
     :alt: Избранное
     :align: center
+    :class: framed
     :title: Рис. 4. Разделы для работы с проектом
     :show_caption: True
 
